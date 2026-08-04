@@ -1,0 +1,57 @@
+[
+  {
+    "slug": "will-the-us-invade-iran-before-2027",
+    "token_id": "55115078421062885512539156303747803058407616201213034911037320915726138659123",
+    "entry_price": 0.2,
+    "exit_target": 0.21,
+    "size_usd": 1.5632135740422075,
+    "edge_per_share": 0.009999999999999981,
+    "opened_ts": 1785838968.7329888,
+    "timeout_seconds": 1800.0,
+    "status": "open"
+  },
+  {
+    "slug": "us-x-iran-effective-ceasfire-by-july-31-20260715194822045",
+    "token_id": "95577979648711137561778638101766617213130581085760544385254830392377913395624",
+    "entry_price": 0.53,
+    "exit_target": 0.56,
+    "size_usd": 7.9823671865985295,
+    "edge_per_share": 0.030000000000000027,
+    "opened_ts": 1785838968.7329888,
+    "timeout_seconds": 1800.0,
+    "status": "open"
+  },
+  {
+    "slug": "strait-of-hormuz-traffic-returns-to-normal-by-august-31-20260702154212320",
+    "token_id": "105426373826369935595603860663411604941599130211176020843036778867927711117332",
+    "entry_price": 0.12,
+    "exit_target": 0.13,
+    "size_usd": 1.4211032491292834,
+    "edge_per_share": 0.010000000000000009,
+    "opened_ts": 1785838968.7329888,
+    "timeout_seconds": 1800.0,
+    "status": "open"
+  },
+  {
+    "slug": "us-announces-end-of-iranian-blockade-by-august-7-2026-20260727171523690",
+    "token_id": "105018125001683421642188507083357166141411975719572822588636238221967305408092",
+    "entry_price": 0.237,
+    "exit_target": 0.239,
+    "size_usd": 0.32780363282667613,
+    "edge_per_share": 0.0020000000000000018,
+    "opened_ts": 1785838968.7329888,
+    "timeout_seconds": 1800.0,
+    "status": "open"
+  },
+  {
+    "slug": "israel-x-iran-ceasefire-continues-through-august-9-20260727170733638",
+    "token_id": "51783880760599120440014289525159847949469877325479084384177696513850906603472",
+    "entry_price": 0.87,
+    "exit_target": 0.88,
+    "size_usd": 9.619775840259765,
+    "edge_per_share": 0.010000000000000009,
+    "opened_ts": 1785838968.7329888,
+    "timeout_seconds": 1800.0,
+    "status": "open"
+  }
+]
