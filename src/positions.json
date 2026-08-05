@@ -1,27 +1,5 @@
 [
   {
-    "slug": "dota2-flc-liquid-2026-08-05",
-    "token_id": "58310792421309163897663852279966053274862774024141363218258814703368733995001",
-    "entry_price": 0.25,
-    "exit_target": 0.26,
-    "size_usd": 0.08511794677955711,
-    "edge_per_share": 0.0005012500000000086,
-    "opened_ts": 1785959286.93664,
-    "timeout_seconds": 1800.0,
-    "status": "open"
-  },
-  {
-    "slug": "mlb-lad-chc-2026-08-05",
-    "token_id": "71414359369770981117526636017076928924157945364412016891553818347898844703026",
-    "entry_price": 0.06,
-    "exit_target": 0.07,
-    "size_usd": 0.9431643874661993,
-    "edge_per_share": 0.006961250000000008,
-    "opened_ts": 1785959286.93664,
-    "timeout_seconds": 1800.0,
-    "status": "open"
-  },
-  {
     "slug": "clarity-act-signed-into-law-in-2026",
     "token_id": "35198549486569600595408965368290795524428922595732253580266052028158040373233",
     "entry_price": 0.15,
@@ -40,6 +18,28 @@
     "size_usd": 1.4809130681358607,
     "edge_per_share": 0.009999999999999981,
     "opened_ts": 1785959286.93664,
+    "timeout_seconds": 1800.0,
+    "status": "open"
+  },
+  {
+    "slug": "dota2-flc-liquid-2026-08-05",
+    "token_id": "58310792421309163897663852279966053274862774024141363218258814703368733995001",
+    "entry_price": 0.26,
+    "exit_target": 0.27,
+    "size_usd": 0.044967558645637486,
+    "edge_per_share": 0.000261250000000008,
+    "opened_ts": 1785960112.7267,
+    "timeout_seconds": 1800.0,
+    "status": "open"
+  },
+  {
+    "slug": "will-the-us-invade-iran-before-2027",
+    "token_id": "55115078421062885512539156303747803058407616201213034911037320915726138659123",
+    "entry_price": 0.14,
+    "exit_target": 0.15,
+    "size_usd": 1.4810723666528482,
+    "edge_per_share": 0.009999999999999981,
+    "opened_ts": 1785960112.7267,
     "timeout_seconds": 1800.0,
     "status": "open"
   }
