@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Polymarket dry-run — monitor</title>
+<style>
+  :root {
+    color-scheme: light;
+    --page: #f9f9f7;
+    --surface: #fcfcfb;
+    --ink: #0b0b0b;
+    --ink-2: #52514e;
+    --muted: #898781;
+    --grid: #e1e0d9;
+    --baseline: #c3c2b7;
+    --border: rgba(11,11,11,0.10);
+    --series: #2a78d6;
+    --series-soft: rgba(42,120,214,0.12);
+    --good: #006300;
+    --bad: #d03b3b;
+    --warn-bg: #fdf3e0;
+    --warn-ink: #854f0b;
+    --ok-bg: #e8f4e8;
+    --ok-ink: #006300;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --page: #0d0d0d;
+      --surface: #1a1a19;
+      --ink: #ffffff;
+      --ink-2: #c3c2b7;
+      --muted: #898781;
+      --grid: #2c2c2a;
+      --baseline: #383835;
+      --border: rgba(255,255,255,0.10);
+      --series: #3987e5;
+      --series-soft: rgba(57,135,229,0.16);
+      --good: #0ca30c;
+      --bad: #e66767;
+      --warn-bg: #33260a;
+      --warn-ink: #fab219;
+      --ok-bg: #10240f;
+      --ok-ink: #0ca30c;
+    }
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body {
+    background: var(--page);
+    color: var(--ink);
+    font: 15px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif;
+    padding: 24px 20px 48px;
+  }
+  .wrap { max-width: 980px; margin: 0 auto; display: grid; gap: 16px; }
+  header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px 16px; }
+  h1 { font-size: 19px; font-weight: 650; letter-spacing: -0.01em; }
+  .sub { color: var(--muted); font-size: 13px; }
+  .pill {
+    font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 999px;
+    display: inline-flex; align-items: center; gap: 6px;
+  }
+  .pill-ok  { background: var(--ok-bg);  color: var(--ok-ink); }
+  .pill-warn{ background: var(--warn-bg); color: var(--warn-ink); }
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; }
+  .tile {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+    padding: 14px 16px; display: grid; gap: 2px;
+  }
+  .tile .k { font-size: 12px; color: var(--muted); letter-spacing: 0.02em; text-transform: uppercase; }
+  .tile .v { font-size: 24px; font-weight: 650; letter-spacing: -0.01em; }
+  .tile .d { font-size: 12.5px; color: var(--ink-2); }
+  .up { color: var(--good); }
+  .down { color: var(--bad); }
+  .card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+    padding: 16px;
+  }
+  .card h2 { font-size: 13px; font-weight: 650; color: var(--ink-2); text-transform: uppercase; letter-spacing: 0.03em; margin-bottom: 10px; }
+  .chart-box { position: relative; }
+  svg { display: block; width: 100%; height: auto; }
+  .tooltip {
+    position: absolute; pointer-events: none; display: none;
+    background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+    padding: 6px 10px; font-size: 12.5px; box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+    white-space: nowrap; z-index: 2;
+  }
+  .tooltip .tv { font-weight: 650; font-variant-numeric: tabular-nums; }
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 720px) { .cols { grid-template-columns: 1fr; } }
+  .tbl-box { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+  th { text-align: left; color: var(--muted); font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.03em; font-weight: 600; padding: 4px 10px 6px 0; border-bottom: 1px solid var(--grid); }
+  td { padding: 6px 10px 6px 0; border-bottom: 1px solid var(--grid); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  .mkt { max-width: 260px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--ink-2); }
+  .tag { font-size: 11.5px; font-weight: 600; padding: 1px 8px; border-radius: 999px; }
+  .tag-win { background: var(--ok-bg); color: var(--ok-ink); }
+  .tag-to  { background: var(--grid); color: var(--ink-2); }
+  .empty { color: var(--muted); font-size: 13.5px; padding: 8px 0; }
+  footer { color: var(--muted); font-size: 12px; }
+  a { color: var(--series); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Polymarket dry-run</h1>
+    <span class="pill" id="breaker-pill"></span>
+    <span class="sub" id="updated"></span>
+  </header>
+
+  <div class="tiles" id="tiles"></div>
+
+  <div class="card">
+    <h2>Curva de bankroll (simulado, USD)</h2>
+    <div class="chart-box">
+      <svg id="chart" viewBox="0 0 940 260" role="img" aria-label="Curva del bankroll simulado en el tiempo"></svg>
+      <div class="tooltip" id="tip"></div>
+    </div>
+  </div>
+
+  <div class="cols">
+    <div class="card">
+      <h2>Últimos cierres</h2>
+      <div class="tbl-box"><table id="closes"></table></div>
+    </div>
+    <div class="card">
+      <h2>Posiciones abiertas</h2>
+      <div class="tbl-box"><table id="open"></table></div>
+    </div>
+  </div>
+
+  <footer>
+    Modo dry-run: ninguna orden real se firma ni se envía. Datos actualizados cada 15 min por
+    <a href="https://github.com/Xago/polymarket-quant-bot/actions">GitHub Actions</a>.
+    Cierre = el precio real tocó el objetivo dentro de la ventana de 30 min (ganancia) o venció sin tocarlo ($0).
+  </footer>
+</div>
+
+<script>
+const MAX_LOSSES = 5;
+const $ = id => document.getElementById(id);
+const fmt$ = v => "$" + v.toLocaleString("en-US", {minimumFractionDigits: 2, maximumFractionDigits: 2});
+const fmtT = ts => new Date(ts * 1000).toLocaleString("es-CL", {day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit"});
+
+async function main() {
+  const bust = "?t=" + Math.floor(Date.now() / 60000);
+  const [logTxt, positions, bank] = await Promise.all([
+    fetch("src/dry_run_log.jsonl" + bust).then(r => r.text()),
+    fetch("src/positions.json" + bust).then(r => r.json()),
+    fetch("src/bankroll_state.json" + bust).then(r => r.json()),
+  ]);
+  const lines = logTxt.trim().split("\n").map(l => { try { return JSON.parse(l); } catch { return null; } }).filter(Boolean);
+  const closes = lines.filter(l => l.action === "CLOSE");
+  const wins = closes.filter(c => c.reason === "spread_capturado" && c.pnl > 0);
+  const lastTs = lines.length ? lines[lines.length - 1].ts : null;
+
+  const tail = bank.recent_outcomes.slice(-MAX_LOSSES);
+  const breakerOn = tail.length >= MAX_LOSSES && tail.every(x => x === false);
+  const pill = $("breaker-pill");
+  pill.textContent = breakerOn ? "⏸ freno de racha activo" : "● operando";
+  pill.className = "pill " + (breakerOn ? "pill-warn" : "pill-ok");
+  $("updated").textContent = lastTs ? "último registro: " + fmtT(lastTs) : "";
+
+  const pnlTotal = bank.bankroll_now - 1000;
+  const rate = closes.length ? (100 * wins.length / closes.length) : 0;
+  $("tiles").innerHTML = `
+    <div class="tile"><span class="k">Bankroll</span><span class="v">${fmt$(bank.bankroll_now)}</span>
+      <span class="d ${pnlTotal >= 0 ? "up" : "down"}">${pnlTotal >= 0 ? "+" : ""}${fmt$(pnlTotal).replace("$-","-$")} total</span></div>
+    <div class="tile"><span class="k">Hoy</span><span class="v ${bank.bankroll_now - bank.bankroll_start_of_day >= 0 ? "up" : "down"}">${(bank.bankroll_now - bank.bankroll_start_of_day >= 0 ? "+" : "")}${fmt$(bank.bankroll_now - bank.bankroll_start_of_day).replace("$-","-$")}</span>
+      <span class="d">desde ${fmt$(bank.bankroll_start_of_day)}</span></div>
+    <div class="tile"><span class="k">Cierres</span><span class="v">${closes.length}</span>
+      <span class="d">${wins.length} con ganancia · ${closes.length - wins.length} timeout</span></div>
+    <div class="tile"><span class="k">Tasa de captura</span><span class="v">${rate.toFixed(1)}%</span>
+      <span class="d">del spread objetivo</span></div>
+    <div class="tile"><span class="k">Abiertas</span><span class="v">${positions.length}</span>
+      <span class="d">ventana de 30 min c/u</span></div>`;
+
+  drawChart(closes);
+  renderCloses(closes.slice(-12).reverse());
+  renderOpen(positions);
+}
+
+function drawChart(closes) {
+  const svg = $("chart"), tip = $("tip");
+  if (!closes.length) return;
+  const pts = closes.map(c => ({ t: c.ts, v: c.bankroll_now }));
+  const W = 940, H = 260, L = 58, R = 16, T = 14, B = 30;
+  const t0 = pts[0].t, t1 = pts[pts.length - 1].t;
+  let v0 = Math.min(...pts.map(p => p.v)), v1 = Math.max(...pts.map(p => p.v));
+  const pad = Math.max((v1 - v0) * 0.12, 0.5); v0 -= pad; v1 += pad;
+  const X = t => L + (t - t0) / (t1 - t0 || 1) * (W - L - R);
+  const Y = v => T + (1 - (v - v0) / (v1 - v0)) * (H - T - B);
+  const css = getComputedStyle(document.documentElement);
+  const cGrid = css.getPropertyValue("--grid").trim(), cMuted = css.getPropertyValue("--muted").trim(),
+        cSeries = css.getPropertyValue("--series").trim(), cSoft = css.getPropertyValue("--series-soft").trim();
+
+  let g = "";
+  const nY = 4;
+  for (let i = 0; i <= nY; i++) {
+    const v = v0 + (v1 - v0) * i / nY, y = Y(v);
+    g += `<line x1="${L}" y1="${y}" x2="${W - R}" y2="${y}" stroke="${cGrid}" stroke-width="1"/>`;
+    g += `<text x="${L - 8}" y="${y + 4}" text-anchor="end" font-size="11" fill="${cMuted}" style="font-variant-numeric:tabular-nums">${v.toFixed(1)}</text>`;
+  }
+  const nX = 5;
+  for (let i = 0; i <= nX; i++) {
+    const t = t0 + (t1 - t0) * i / nX;
+    g += `<text x="${X(t)}" y="${H - 8}" text-anchor="middle" font-size="11" fill="${cMuted}">${new Date(t * 1000).toLocaleString("es-CL", {day: "2-digit", month: "2-digit", hour: "2-digit"})}</text>`;
+  }
+  const line = pts.map((p, i) => (i ? "L" : "M") + X(p.t).toFixed(1) + " " + Y(p.v).toFixed(1)).join(" ");
+  const area = line + ` L ${X(t1).toFixed(1)} ${Y(v0)} L ${X(t0).toFixed(1)} ${Y(v0)} Z`;
+  const last = pts[pts.length - 1];
+  svg.innerHTML = g +
+    `<path d="${area}" fill="${cSoft}"/>` +
+    `<path d="${line}" fill="none" stroke="${cSeries}" stroke-width="2" stroke-linejoin="round"/>` +
+    `<circle cx="${X(last.t)}" cy="${Y(last.v)}" r="4" fill="${cSeries}"/>` +
+    `<line id="xh" y1="${T}" y2="${H - B}" stroke="${cMuted}" stroke-width="1" stroke-dasharray="3 3" visibility="hidden"/>` +
+    `<circle id="xhd" r="4.5" fill="${cSeries}" stroke="white" stroke-width="1.5" visibility="hidden"/>`;
+
+  const xh = svg.querySelector("#xh"), xhd = svg.querySelector("#xhd");
+  svg.addEventListener("mousemove", e => {
+    const rect = svg.getBoundingClientRect();
+    const mx = (e.clientX - rect.left) * (W / rect.width);
+    let best = pts[0], bd = Infinity;
+    for (const p of pts) { const d = Math.abs(X(p.t) - mx); if (d < bd) { bd = d; best = p; } }
+    xh.setAttribute("x1", X(best.t)); xh.setAttribute("x2", X(best.t)); xh.setAttribute("visibility", "visible");
+    xhd.setAttribute("cx", X(best.t)); xhd.setAttribute("cy", Y(best.v)); xhd.setAttribute("visibility", "visible");
+    tip.style.display = "block";
+    tip.innerHTML = `${fmtT(best.t)}<br><span class="tv">${fmt$(best.v)}</span>`;
+    const bx = X(best.t) / W * rect.width;
+    tip.style.left = Math.min(Math.max(bx + 12, 0), rect.width - 130) + "px";
+    tip.style.top = (Y(best.v) / H * rect.height - 46) + "px";
+  });
+  svg.addEventListener("mouseleave", () => {
+    xh.setAttribute("visibility", "hidden"); xhd.setAttribute("visibility", "hidden"); tip.style.display = "none";
+  });
+}
+
+function renderCloses(rows) {
+  $("closes").innerHTML = rows.length
+    ? `<tr><th>Hora</th><th>Mercado</th><th>Resultado</th><th class="num">P&L</th></tr>` +
+      rows.map(c => `<tr>
+        <td style="white-space:nowrap">${fmtT(c.ts)}</td>
+        <td class="mkt" title="${c.market}">${c.market}</td>
+        <td>${c.reason === "spread_capturado" ? '<span class="tag tag-win">spread</span>' : '<span class="tag tag-to">timeout</span>'}</td>
+        <td class="num ${c.pnl > 0 ? "up" : ""}">${c.pnl > 0 ? "+" : ""}${c.pnl.toFixed(2)}</td>
+      </tr>`).join("")
+    : `<tr><td class="empty">Sin cierres todavía.</td></tr>`;
+}
+
+function renderOpen(pos) {
+  $("open").innerHTML = pos.length
+    ? `<tr><th>Mercado</th><th class="num">Entrada</th><th class="num">Objetivo</th><th class="num">Tamaño</th></tr>` +
+      pos.map(p => `<tr>
+        <td class="mkt" title="${p.slug}">${p.slug}</td>
+        <td class="num">${p.entry_price.toFixed(3)}</td>
+        <td class="num">${p.exit_target.toFixed(3)}</td>
+        <td class="num">${fmt$(p.size_usd)}</td>
+      </tr>`).join("")
+    : `<tr><td class="empty">Ninguna — ${"si el freno está activo, es intencional"}.</td></tr>`;
+}
+
+main().catch(e => {
+  document.querySelector(".wrap").insertAdjacentHTML("beforeend",
+    `<div class="card"><span class="empty">Error cargando datos: ${e.message}</span></div>`);
+});
+</script>
+</body>
+</html>
