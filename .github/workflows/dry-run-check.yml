@@ -1,0 +1,38 @@
+name: Dry-run check (Polymarket)
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dry-run-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Correr el chequeo del dry-run
+        working-directory: src
+        run: python3 -c "from dry_run_loop import run; run(n_ticks=1, sleep_seconds=0)"
+
+      - name: Comitear estado si cambio algo
+        run: |
+          git config user.name "dry-run-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add src/dry_run_log.jsonl src/positions.json src/bankroll_state.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: dry-run check $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git pull --rebase --autostash
+            git push
+          fi
