@@ -1,3 +1,5 @@
 __pycache__/
 *.pyc
 KILL_SWITCH
+launchd.log
+launchd.err.log

@@ -55,6 +55,39 @@ Condiciones que detienen el bot por completo hasta revisión manual:
 Cada circuit breaker es una función pura: `(estado_actual) -> bool`, testeable
 sin conexión a Polymarket.
 
+El estado que alimenta drawdown/racha (bankroll, pico, resultados recientes)
+se persiste en disco (`src/bankroll_state.py`) para que tenga memoria real
+entre corridas — sin esto, un proceso nuevo en cada corrida nunca podría
+acumular una racha real. Validado en vivo el 2026-08-05: el freno de racha
+se disparó de verdad tras 6 timeouts seguidos y bloqueó toda entrada nueva,
+sin auto-resolverse (queda en punto muerto hasta reanudación manual, por
+diseño). La reanudación es `bankroll_state.resume_after_breaker()`: limpia
+la racha y deja un registro `RESUME` auditable en el log — nunca se llama
+sola desde el loop.
+
+### Criterios de reanudación (antes de llamar `resume_after_breaker()`)
+
+1. **Que la racha no venga de un bug ya conocido**: confirmar que todos los
+   cierres que forman la racha son posteriores al último arreglo relevante
+   del código. Si alguno es de antes, no cuenta como señal real.
+2. **Chequeo de plausibilidad estadística**: con la tasa de acierto
+   reciente, ¿qué tan rara es esta racha por puro azar? Si la probabilidad
+   es muy baja (ej. menor a 1%), tratarla como posible cambio de régimen y
+   no reanudar sin investigar más. Recalcular siempre con el win rate del
+   momento, no asumir un número fijo.
+3. **Revisar si los mercados de la racha son representativos**: si los
+   timeouts se concentraron en mercados inusualmente ilíquidos o distintos
+   a los habituales, la racha dice más sobre esos mercados puntuales que
+   sobre la estrategia en general.
+4. **No reanudar en cadena sin pausa**: si al reanudar se dispara de nuevo
+   en pocos ciclos, no reanudar automáticamente una segunda vez — ahí para
+   y revisá el diseño, no solo la racha.
+
+Validado en vivo el 2026-08-05: racha de 6 timeouts entre 07:49 y 12:30,
+todos posteriores al arreglo de persistencia del bankroll (criterio 1 ✓),
+con ~4,5% de probabilidad de ser puro azar (criterio 2, zona de ruido
+plausible).
+
 ## 5. Kill switch manual
 
 - Un solo comando/flag que detiene el bot de inmediato y cancela órdenes

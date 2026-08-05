@@ -10,6 +10,7 @@ import json
 import time
 
 import kill_switch
+from bankroll_state import load_state, record_close, save_state
 from circuit_breakers import BotState, RiskLimits, check_breakers
 from market_data import book_spread, pick_active_markets, price_history, taker_fee_per_share
 from position_tracker import load_ledger, open_position, resolve_position, save_ledger
@@ -29,6 +30,7 @@ def run(
     limits=None,
     log_path="dry_run_log.jsonl",
     positions_path="positions.json",
+    bankroll_state_path="bankroll_state.json",
     position_timeout_seconds=1800.0,
     kill_switch_path=kill_switch.DEFAULT_PATH,
     list_markets=pick_active_markets,
@@ -36,8 +38,7 @@ def run(
     get_history=price_history,
 ):
     limits = limits or RiskLimits()
-    bankroll_start_of_day = bankroll_peak = bankroll_now = bankroll0
-    recent_outcomes = []
+    bankroll_st = load_state(bankroll_state_path, bankroll0)
     recent_api_errors_ts = []
     open_positions = load_ledger(positions_path)
 
@@ -54,20 +55,25 @@ def run(
         # asi el bankroll y la racha reflejan resultados reales, no solo intenciones
         still_open = []
         for pos in open_positions:
-            closed, pnl, reason = resolve_position(pos, get_history, now_ts)
+            try:
+                closed, pnl, reason = resolve_position(pos, get_history, now_ts)
+            except Exception as e:
+                recent_api_errors_ts.append(now_ts)
+                still_open.append(pos)  # se reintenta en el proximo tick, no se pierde
+                _log(log_path, {"ts": now_ts, "tick": tick, "market": pos.slug, "action": "SKIP", "reason": f"error API: {e}"})
+                continue
             if not closed:
                 still_open.append(pos)
                 continue
-            bankroll_now += pnl
-            bankroll_peak = max(bankroll_peak, bankroll_now)
-            recent_outcomes.append(pnl > 0)
+            record_close(bankroll_st, pnl)
             _log(log_path, {
                 "ts": now_ts, "tick": tick, "market": pos.slug, "action": "CLOSE",
-                "reason": reason, "pnl": round(pnl, 4), "bankroll_now": round(bankroll_now, 2),
+                "reason": reason, "pnl": round(pnl, 4), "bankroll_now": round(bankroll_st["bankroll_now"], 2),
             })
-            print(f"[tick {tick}] {pos.slug}: cerro ({reason}), pnl ${pnl:.2f}, bankroll ${bankroll_now:.2f}")
+            print(f"[tick {tick}] {pos.slug}: cerro ({reason}), pnl ${pnl:.2f}, bankroll ${bankroll_st['bankroll_now']:.2f}")
         open_positions = still_open
         save_ledger(positions_path, open_positions)
+        save_state(bankroll_state_path, bankroll_st)
 
         if markets is None:
             markets = list_markets(n_markets)
@@ -91,12 +97,12 @@ def run(
             net_worst = spread - taker_fee_per_share(mid, fee_rate)
 
             state = BotState(
-                bankroll_start_of_day=bankroll_start_of_day,
-                bankroll_peak=bankroll_peak,
-                bankroll_now=bankroll_now,
+                bankroll_start_of_day=bankroll_st["bankroll_start_of_day"],
+                bankroll_peak=bankroll_st["bankroll_peak"],
+                bankroll_now=bankroll_st["bankroll_now"],
                 now_ts=now_ts,
                 last_price_update_ts=now_ts,  # dato recien pedido en este mismo tick
-                recent_outcomes=recent_outcomes,
+                recent_outcomes=bankroll_st["recent_outcomes"],
                 recent_api_errors_ts=recent_api_errors_ts,
             )
             triggered = check_breakers(state, limits)
@@ -105,7 +111,7 @@ def run(
                 continue
 
             f = kelly_fraction(p_hat=best_bid + max(net_worst, 0), price=best_bid)
-            dollars = f * bankroll_now
+            dollars = f * bankroll_st["bankroll_now"]
             if dollars <= 0:
                 _log(log_path, {"ts": now_ts, "tick": tick, "market": slug, "action": "SKIP", "reason": "sin edge neto positivo"})
                 continue
@@ -121,7 +127,7 @@ def run(
             _log(log_path, {
                 "ts": now_ts, "tick": tick, "market": slug, "action": "DRY_RUN_ENTRY",
                 "best_bid": best_bid, "best_ask": best_ask, "net_edge": round(net_worst, 5),
-                "size_usd": round(dollars, 2), "bankroll_now": round(bankroll_now, 2),
+                "size_usd": round(dollars, 2), "bankroll_now": round(bankroll_st["bankroll_now"], 2),
             })
             print(f"[tick {tick}] {slug}: entraria (simulado) con ${dollars:.2f} (edge neto {net_worst:.4f})")
 
@@ -139,6 +145,7 @@ def _demo():
         log_path = os.path.join(d, "log.jsonl")
         kill_path = os.path.join(d, "KILL_SWITCH")
         pos_path = os.path.join(d, "positions.json")
+        bank_path = os.path.join(d, "bankroll_state.json")
 
         # 1) kill switch activo desde el inicio -> el loop no debe ni
         #    intentar pedir mercados (list_markets explota si se llama)
@@ -146,8 +153,8 @@ def _demo():
             raise AssertionError("no deberia llamarse con kill switch activo")
 
         kill_switch.activate("prueba", kill_path)
-        run(n_ticks=3, log_path=log_path, positions_path=pos_path, kill_switch_path=kill_path,
-            list_markets=_boom, get_book=_boom)
+        run(n_ticks=3, log_path=log_path, positions_path=pos_path, bankroll_state_path=bank_path,
+            kill_switch_path=kill_path, list_markets=_boom, get_book=_boom)
         with open(log_path) as f:
             lines = [json.loads(l) for l in f]
         assert len(lines) == 1 and lines[0]["action"] == "HALT"
@@ -158,8 +165,8 @@ def _demo():
         #    y quedar registrada como posicion abierta en el ledger
         fake_markets = [("mercado-test", "tok1", 0, 0.0)]
         fake_book = {"tok1": (0.40, 0.42, 100, 100)}
-        run(n_ticks=1, log_path=log_path, positions_path=pos_path, kill_switch_path=kill_path,
-            list_markets=lambda n: fake_markets,
+        run(n_ticks=1, log_path=log_path, positions_path=pos_path, bankroll_state_path=bank_path,
+            kill_switch_path=kill_path, list_markets=lambda n: fake_markets,
             get_book=lambda tid: fake_book[tid])
         with open(log_path) as f:
             lines = [json.loads(l) for l in f]
@@ -173,8 +180,8 @@ def _demo():
         #    saltear, no entrar, no abrir posicion
         fake_markets_fee = [("mercado-test-fee", "tok2", 0, 0.9)]
         fake_book_fee = {"tok2": (0.40, 0.42, 100, 100)}
-        run(n_ticks=1, log_path=log_path, positions_path=pos_path, kill_switch_path=kill_path,
-            list_markets=lambda n: fake_markets_fee,
+        run(n_ticks=1, log_path=log_path, positions_path=pos_path, bankroll_state_path=bank_path,
+            kill_switch_path=kill_path, list_markets=lambda n: fake_markets_fee,
             get_book=lambda tid: fake_book_fee[tid])
         with open(log_path) as f:
             lines = [json.loads(l) for l in f]
@@ -192,7 +199,7 @@ def _demo():
         )
         save_ledger(pos_path, [preexistente])
         run(n_ticks=1, bankroll0=1000.0, log_path=log_path, positions_path=pos_path,
-            kill_switch_path=kill_path, list_markets=lambda n: [],
+            bankroll_state_path=bank_path, kill_switch_path=kill_path, list_markets=lambda n: [],
             get_history=lambda tid, s, e: [(s, 0.40), (s + 50, 0.43)])
         with open(log_path) as f:
             lines = [json.loads(l) for l in f]
