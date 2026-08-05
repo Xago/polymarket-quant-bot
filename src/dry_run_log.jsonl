@@ -789,3 +789,12 @@
 {"ts": 1785969035.4895644, "tick": 0, "market": "strait-of-hormuz-traffic-returns-to-normal-by-august-31-20260702154212320", "action": "DRY_RUN_ENTRY", "best_bid": 0.13, "best_ask": 0.14, "net_edge": 0.01, "size_usd": 1.46, "bankroll_now": 1019.12}
 {"ts": 1785969035.4895644, "tick": 0, "market": "us-announces-end-of-iranian-blockade-by-august-7-2026-20260727171523690", "action": "DRY_RUN_ENTRY", "best_bid": 0.374, "best_ask": 0.378, "net_edge": 0.004, "size_usd": 0.81, "bankroll_now": 1019.12}
 {"ts": 1785969035.4895644, "tick": 0, "market": "will-the-us-invade-iran-before-2027", "action": "DRY_RUN_ENTRY", "best_bid": 0.15, "best_ask": 0.16, "net_edge": 0.01, "size_usd": 1.5, "bankroll_now": 1019.12}
+{"ts": 1785972737.1120887, "tick": 0, "market": "clarity-act-signed-into-law-in-2026", "action": "CLOSE", "reason": "timeout_sin_cierre", "pnl": 0.0, "bankroll_now": 1019.12}
+{"ts": 1785972737.1120887, "tick": 0, "market": "strait-of-hormuz-traffic-returns-to-normal-by-august-31-20260702154212320", "action": "CLOSE", "reason": "timeout_sin_cierre", "pnl": 0.0, "bankroll_now": 1019.12}
+{"ts": 1785972737.1120887, "tick": 0, "market": "us-announces-end-of-iranian-blockade-by-august-7-2026-20260727171523690", "action": "CLOSE", "reason": "spread_capturado", "pnl": 0.0087, "bankroll_now": 1019.12}
+{"ts": 1785972737.1120887, "tick": 0, "market": "will-the-us-invade-iran-before-2027", "action": "CLOSE", "reason": "timeout_sin_cierre", "pnl": 0.0, "bankroll_now": 1019.12}
+{"ts": 1785972737.1120887, "tick": 0, "market": "clarity-act-signed-into-law-in-2026", "action": "DRY_RUN_ENTRY", "best_bid": 0.16, "best_ask": 0.17, "net_edge": 0.00449, "size_usd": 0.68, "bankroll_now": 1019.12}
+{"ts": 1785972737.1120887, "tick": 0, "market": "mlb-cws-bos-2026-08-05", "action": "SKIP", "reason": "sin edge neto positivo"}
+{"ts": 1785972737.1120887, "tick": 0, "market": "will-manchester-city-win-the-2026-27-english-premier-league-epl-championship-20260701200428761", "action": "SKIP", "reason": "sin edge neto positivo"}
+{"ts": 1785972737.1120887, "tick": 0, "market": "strait-of-hormuz-traffic-returns-to-normal-by-august-31-20260702154212320", "action": "DRY_RUN_ENTRY", "best_bid": 0.13, "best_ask": 0.14, "net_edge": 0.01, "size_usd": 1.46, "bankroll_now": 1019.12}
+{"ts": 1785972737.1120887, "tick": 0, "market": "us-announces-end-of-iranian-blockade-by-august-7-2026-20260727171523690", "action": "DRY_RUN_ENTRY", "best_bid": 0.362, "best_ask": 0.371, "net_edge": 0.009, "size_usd": 1.8, "bankroll_now": 1019.12}
