@@ -840,3 +840,11 @@
 {"ts": 1786018522.0187862, "tick": 0, "market": "lol-ig1-nip-2026-08-06", "action": "SKIP", "reason": "sin edge neto positivo"}
 {"ts": 1786018522.0187862, "tick": 0, "market": "will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615", "action": "SKIP", "reason": "sin edge neto positivo"}
 {"ts": 1786018522.0187862, "tick": 0, "market": "clarity-act-signed-into-law-in-2026", "action": "DRY_RUN_ENTRY", "best_bid": 0.15, "best_ask": 0.16, "net_edge": 0.00476, "size_usd": 0.71, "bankroll_now": 1019.68}
+{"ts": 1786027172.6551623, "tick": 0, "market": "strait-of-hormuz-traffic-returns-to-normal-by-august-31-20260702154212320", "action": "CLOSE", "reason": "spread_capturado", "pnl": 0.0903, "bankroll_now": 1019.77}
+{"ts": 1786027172.6551623, "tick": 0, "market": "us-announces-end-of-iranian-blockade-by-august-7-2026-20260727171523690", "action": "CLOSE", "reason": "timeout_sin_cierre", "pnl": 0.0, "bankroll_now": 1019.77}
+{"ts": 1786027172.6551623, "tick": 0, "market": "clarity-act-signed-into-law-in-2026", "action": "CLOSE", "reason": "spread_capturado", "pnl": 0.0227, "bankroll_now": 1019.79}
+{"ts": 1786027172.6551623, "tick": 0, "market": "strait-of-hormuz-traffic-returns-to-normal-by-august-31-20260702154212320", "action": "DRY_RUN_ENTRY", "best_bid": 0.17, "best_ask": 0.18, "net_edge": 0.01, "size_usd": 1.54, "bankroll_now": 1019.79}
+{"ts": 1786027172.6551623, "tick": 0, "market": "lol-we-al-2026-08-06", "action": "SKIP", "reason": "sin edge neto positivo"}
+{"ts": 1786027172.6551623, "tick": 0, "market": "us-announces-end-of-iranian-blockade-by-august-7-2026-20260727171523690", "action": "DRY_RUN_ENTRY", "best_bid": 0.335, "best_ask": 0.34, "net_edge": 0.005, "size_usd": 0.96, "bankroll_now": 1019.79}
+{"ts": 1786027172.6551623, "tick": 0, "market": "will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615", "action": "SKIP", "reason": "sin edge neto positivo"}
+{"ts": 1786027172.6551623, "tick": 0, "market": "clarity-act-signed-into-law-in-2026", "action": "DRY_RUN_ENTRY", "best_bid": 0.16, "best_ask": 0.17, "net_edge": 0.00449, "size_usd": 0.68, "bankroll_now": 1019.79}

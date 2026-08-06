@@ -1,8 +1,8 @@
 {
   "day": "2026-08-06",
   "bankroll_start_of_day": 1019.1241469409473,
-  "bankroll_peak": 1019.6750937347316,
-  "bankroll_now": 1019.6750937347316,
+  "bankroll_peak": 1019.7880862978975,
+  "bankroll_now": 1019.7880862978975,
   "recent_outcomes": [
     true,
     true,
@@ -32,6 +32,9 @@
     true,
     true,
     true,
-    false
+    false,
+    true,
+    false,
+    true
   ]
 }
