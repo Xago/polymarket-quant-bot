@@ -894,3 +894,13 @@
 {"ts": 1786089718.901101, "tick": 0, "market": "us-announces-end-of-iranian-blockade-by-august-7-2026-20260727171523690", "action": "DRY_RUN_ENTRY", "best_bid": 0.122, "best_ask": 0.123, "net_edge": 0.001, "size_usd": 0.15, "bankroll_now": 1020.96}
 {"ts": 1786089718.901101, "tick": 0, "market": "will-the-us-invade-iran-before-2027", "action": "DRY_RUN_ENTRY", "best_bid": 0.17, "best_ask": 0.18, "net_edge": 0.01, "size_usd": 1.54, "bankroll_now": 1020.96}
 {"ts": 1786089718.901101, "tick": 0, "market": "us-x-iran-effective-ceasfire-by-july-31-20260715194822045", "action": "DRY_RUN_ENTRY", "best_bid": 0.81, "best_ask": 0.82, "net_edge": 0.01, "size_usd": 6.72, "bankroll_now": 1020.96}
+{"ts": 1786094003.29488, "tick": 0, "market": "strait-of-hormuz-traffic-returns-to-normal-by-august-31-20260702154212320", "action": "CLOSE", "reason": "spread_capturado", "pnl": 0.1209, "bankroll_now": 1021.08}
+{"ts": 1786094003.29488, "tick": 0, "market": "lol-jdg-edg-2026-08-07", "action": "CLOSE", "reason": "spread_capturado", "pnl": 0.0461, "bankroll_now": 1021.13}
+{"ts": 1786094003.29488, "tick": 0, "market": "us-announces-end-of-iranian-blockade-by-august-7-2026-20260727171523690", "action": "CLOSE", "reason": "timeout_sin_cierre", "pnl": 0.0, "bankroll_now": 1021.13}
+{"ts": 1786094003.29488, "tick": 0, "market": "will-the-us-invade-iran-before-2027", "action": "CLOSE", "reason": "timeout_sin_cierre", "pnl": 0.0, "bankroll_now": 1021.13}
+{"ts": 1786094003.29488, "tick": 0, "market": "us-x-iran-effective-ceasfire-by-july-31-20260715194822045", "action": "CLOSE", "reason": "spread_capturado", "pnl": 0.0829, "bankroll_now": 1021.21}
+{"ts": 1786094003.29488, "tick": 0, "market": "strait-of-hormuz-traffic-returns-to-normal-by-august-31-20260702154212320", "action": "DRY_RUN_ENTRY", "best_bid": 0.13, "best_ask": 0.14, "net_edge": 0.01, "size_usd": 1.47, "bankroll_now": 1021.21}
+{"ts": 1786094003.29488, "tick": 0, "market": "us-announces-end-of-iranian-blockade-by-august-7-2026-20260727171523690", "action": "DRY_RUN_ENTRY", "best_bid": 0.108, "best_ask": 0.109, "net_edge": 0.001, "size_usd": 0.14, "bankroll_now": 1021.21}
+{"ts": 1786094003.29488, "tick": 0, "market": "will-the-us-invade-iran-before-2027", "action": "DRY_RUN_ENTRY", "best_bid": 0.17, "best_ask": 0.18, "net_edge": 0.01, "size_usd": 1.54, "bankroll_now": 1021.21}
+{"ts": 1786094003.29488, "tick": 0, "market": "us-x-iran-effective-ceasfire-by-july-31-20260715194822045", "action": "DRY_RUN_ENTRY", "best_bid": 0.82, "best_ask": 0.83, "net_edge": 0.01, "size_usd": 7.09, "bankroll_now": 1021.21}
+{"ts": 1786094003.29488, "tick": 0, "market": "will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615", "action": "SKIP", "reason": "sin edge neto positivo"}
