@@ -6,7 +6,7 @@
     "exit_target": 0.13,
     "size_usd": 1.457109275134408,
     "edge_per_share": 0.010000000000000009,
-    "opened_ts": 1786141465.0232778,
+    "opened_ts": 1786144122.930524,
     "timeout_seconds": 1800.0,
     "status": "open"
   },
@@ -17,7 +17,7 @@
     "exit_target": 0.17,
     "size_usd": 1.5264954310931893,
     "edge_per_share": 0.010000000000000009,
-    "opened_ts": 1786141465.0232778,
+    "opened_ts": 1786144122.930524,
     "timeout_seconds": 1800.0,
     "status": "open"
   }
