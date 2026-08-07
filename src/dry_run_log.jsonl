@@ -994,3 +994,10 @@
 {"ts": 1786133916.0713406, "tick": 0, "market": "strait-of-hormuz-traffic-returns-to-normal-by-august-31-20260702154212320", "action": "DRY_RUN_ENTRY", "best_bid": 0.12, "best_ask": 0.13, "net_edge": 0.01, "size_usd": 1.46, "bankroll_now": 1025.64}
 {"ts": 1786133916.0713406, "tick": 0, "market": "will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615", "action": "SKIP", "reason": "sin edge neto positivo"}
 {"ts": 1786133916.0713406, "tick": 0, "market": "will-the-us-invade-iran-before-2027", "action": "DRY_RUN_ENTRY", "best_bid": 0.17, "best_ask": 0.18, "net_edge": 0.01, "size_usd": 1.54, "bankroll_now": 1025.64}
+{"ts": 1786136655.2841098, "tick": 0, "market": "strait-of-hormuz-traffic-returns-to-normal-by-august-31-20260702154212320", "action": "CLOSE", "reason": "spread_capturado", "pnl": 0.1214, "bankroll_now": 1025.76}
+{"ts": 1786136655.2841098, "tick": 0, "market": "will-the-us-invade-iran-before-2027", "action": "CLOSE", "reason": "timeout_sin_cierre", "pnl": 0.0, "bankroll_now": 1025.76}
+{"ts": 1786136655.2841098, "tick": 0, "market": "will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649", "action": "SKIP", "reason": "sin edge neto positivo"}
+{"ts": 1786136655.2841098, "tick": 0, "market": "fed-rate-hike-in-2026", "action": "SKIP", "reason": "sin edge neto positivo"}
+{"ts": 1786136655.2841098, "tick": 0, "market": "will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615", "action": "SKIP", "reason": "sin edge neto positivo"}
+{"ts": 1786136655.2841098, "tick": 0, "market": "will-the-us-invade-iran-before-2027", "action": "DRY_RUN_ENTRY", "best_bid": 0.17, "best_ask": 0.18, "net_edge": 0.01, "size_usd": 1.54, "bankroll_now": 1025.76}
+{"ts": 1786136655.2841098, "tick": 0, "market": "strait-of-hormuz-traffic-returns-to-normal-by-august-31-20260702154212320", "action": "DRY_RUN_ENTRY", "best_bid": 0.12, "best_ask": 0.13, "net_edge": 0.01, "size_usd": 1.46, "bankroll_now": 1025.76}
