@@ -1184,3 +1184,8 @@
 {"ts": 1786232919.3931594, "tick": 0, "market": "ufc-ste36-gui2-2026-08-08", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786232919.3931594, "tick": 0, "market": "mlb-tor-phi-2026-08-08-total-9pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786232919.3931594, "tick": 0, "market": "mlb-tor-phi-2026-08-08", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786235822.2700276, "tick": 0, "market": "dota2-amaru-jenz-2026-07-28-game1", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786235822.2700276, "tick": 0, "market": "wta-sabalen-alexand-2026-08-09", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786235822.2700276, "tick": 0, "market": "mlb-tor-phi-2026-08-08-total-9pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786235822.2700276, "tick": 0, "market": "mlb-cle-cws-2026-08-08", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786235822.2700276, "tick": 0, "market": "mlb-tb-sea-2026-08-08", "action": "SKIP", "reason": ["racha_perdidas"]}
