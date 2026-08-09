@@ -1309,3 +1309,8 @@
 {"ts": 1786308964.9304426, "tick": 0, "market": "mlb-det-sf-2026-08-09-total-7pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786308964.9304426, "tick": 0, "market": "mlb-lad-ari-2026-08-09", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786308964.9304426, "tick": 0, "market": "mlb-min-mil-2026-08-09", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786311763.4381585, "tick": 0, "market": "mlb-det-sf-2026-08-09", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786311763.4381585, "tick": 0, "market": "us-x-iran-effective-ceasfire-by-july-31-20260715194822045", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786311763.4381585, "tick": 0, "market": "mlb-tb-sea-2026-08-09", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786311763.4381585, "tick": 0, "market": "mlb-lad-ari-2026-08-09", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786311763.4381585, "tick": 0, "market": "mlb-cle-cws-2026-08-09", "action": "SKIP", "reason": ["racha_perdidas"]}
