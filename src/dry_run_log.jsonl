@@ -1189,3 +1189,8 @@
 {"ts": 1786235822.2700276, "tick": 0, "market": "mlb-tor-phi-2026-08-08-total-9pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786235822.2700276, "tick": 0, "market": "mlb-cle-cws-2026-08-08", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786235822.2700276, "tick": 0, "market": "mlb-tb-sea-2026-08-08", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786243776.310308, "tick": 0, "market": "dota2-amaru-jenz-2026-07-28-game1", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786243776.310308, "tick": 0, "market": "mlb-lad-ari-2026-08-08", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786243776.310308, "tick": 0, "market": "mlb-tb-sea-2026-08-08", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786243776.310308, "tick": 0, "market": "us-x-iran-effective-ceasfire-by-july-31-20260715194822045", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786243776.310308, "tick": 0, "market": "atp-fils-norrie-2026-08-08", "action": "SKIP", "reason": ["racha_perdidas"]}
