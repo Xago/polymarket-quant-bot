@@ -1214,3 +1214,8 @@
 {"ts": 1786259423.206611, "tick": 0, "market": "cs2-vp-sashi-2026-08-09", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786259423.206611, "tick": 0, "market": "us-x-iran-effective-ceasfire-by-july-31-20260715194822045", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786259423.206611, "tick": 0, "market": "cs2-1win-tl1-2026-08-09", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786262708.7490501, "tick": 0, "market": "dota2-amaru-jenz-2026-07-28-game1", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786262708.7490501, "tick": 0, "market": "cs2-sin2-eye-2026-08-09", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786262708.7490501, "tick": 0, "market": "cs2-vp-sashi-2026-08-09", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786262708.7490501, "tick": 0, "market": "lol-dk-kt-2026-08-09", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786262708.7490501, "tick": 0, "market": "us-x-iran-effective-ceasfire-by-july-31-20260715194822045", "action": "SKIP", "reason": ["racha_perdidas"]}
