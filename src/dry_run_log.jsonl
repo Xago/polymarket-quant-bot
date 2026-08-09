@@ -1314,3 +1314,8 @@
 {"ts": 1786311763.4381585, "tick": 0, "market": "mlb-tb-sea-2026-08-09", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786311763.4381585, "tick": 0, "market": "mlb-lad-ari-2026-08-09", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786311763.4381585, "tick": 0, "market": "mlb-cle-cws-2026-08-09", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786313632.1232822, "tick": 0, "market": "mlb-det-sf-2026-08-09", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786313632.1232822, "tick": 0, "market": "us-x-iran-effective-ceasfire-by-july-31-20260715194822045", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786313632.1232822, "tick": 0, "market": "mlb-lad-ari-2026-08-09", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786313632.1232822, "tick": 0, "market": "atp-fonseca-shelton-2026-08-10", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786313632.1232822, "tick": 0, "market": "mlb-tb-sea-2026-08-09-total-7pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
