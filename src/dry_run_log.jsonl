@@ -1886,3 +1886,8 @@
 {"ts": 1786774382.6276615, "tick": 0, "market": "will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786774382.6276615, "tick": 0, "market": "will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786774382.6276615, "tick": 0, "market": "dota2-ngx-vg-2026-08-15-game1", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786777309.381494, "tick": 0, "market": "dota2-vsn2-ts8-2026-08-15", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786777309.381494, "tick": 0, "market": "dota2-ironwi-liquid-2026-08-15-game1", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786777309.381494, "tick": 0, "market": "ufc-isl-ian1-2026-08-15", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786777309.381494, "tick": 0, "market": "dota2-vsn2-ts8-2026-08-15-game1", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786777309.381494, "tick": 0, "market": "dota2-ngx-vg-2026-08-15", "action": "SKIP", "reason": ["racha_perdidas"]}
