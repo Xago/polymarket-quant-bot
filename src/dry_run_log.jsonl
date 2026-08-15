@@ -2034,3 +2034,8 @@
 {"ts": 1786826034.1716652, "tick": 0, "market": "ufc-isl-ian1-2026-08-15", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786826034.1716652, "tick": 0, "market": "cs2-big5-ts7-2026-08-15", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786826034.1716652, "tick": 0, "market": "atp-bellucc-mensik-2026-08-15", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786827296.86727, "tick": 0, "market": "atp-djokovi-tirante-2026-08-15", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786827296.86727, "tick": 0, "market": "lal-sev-ray-2026-08-15-sev", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786827296.86727, "tick": 0, "market": "ufc-isl-ian1-2026-08-15", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786827296.86727, "tick": 0, "market": "cs2-big5-ts7-2026-08-15", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786827296.86727, "tick": 0, "market": "atp-bellucc-mensik-2026-08-15", "action": "SKIP", "reason": ["racha_perdidas"]}
