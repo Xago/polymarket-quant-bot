@@ -2024,3 +2024,8 @@
 {"ts": 1786822757.2711911, "tick": 0, "market": "cs2-big5-ts7-2026-08-15", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786822757.2711911, "tick": 0, "market": "atp-djokovi-tirante-2026-08-15", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786822757.2711911, "tick": 0, "market": "mlb-cws-det-2026-08-15", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786824016.0712705, "tick": 0, "market": "lal-sev-ray-2026-08-15-sev", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786824016.0712705, "tick": 0, "market": "ufc-isl-ian1-2026-08-15", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786824016.0712705, "tick": 0, "market": "atp-djokovi-tirante-2026-08-15", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786824016.0712705, "tick": 0, "market": "cs2-big5-ts7-2026-08-15", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786824016.0712705, "tick": 0, "market": "wta-ostapen-frech-2026-08-15", "action": "SKIP", "reason": ["racha_perdidas"]}
