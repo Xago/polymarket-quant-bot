@@ -2009,3 +2009,8 @@
 {"ts": 1786817579.1470973, "tick": 0, "market": "atp-kecmano-cobolli-2026-08-15", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786817579.1470973, "tick": 0, "market": "mlb-cws-det-2026-08-15", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786817579.1470973, "tick": 0, "market": "lal-ala-get-2026-08-15-exact-score-0-0", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786819829.0929985, "tick": 0, "market": "lal-ala-get-2026-08-15-ala", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786819829.0929985, "tick": 0, "market": "ufc-isl-ian1-2026-08-15", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786819829.0929985, "tick": 0, "market": "mlb-cws-det-2026-08-15", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786819829.0929985, "tick": 0, "market": "lal-ala-get-2026-08-15-exact-score-0-0", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786819829.0929985, "tick": 0, "market": "nfl-cle-chi-2026-08-15", "action": "SKIP", "reason": ["racha_perdidas"]}
