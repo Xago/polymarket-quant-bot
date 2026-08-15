@@ -2044,3 +2044,8 @@
 {"ts": 1786829398.2865663, "tick": 0, "market": "lal-sev-ray-2026-08-15-ray", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786829398.2865663, "tick": 0, "market": "atp-halys-minaur-2026-08-15", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786829398.2865663, "tick": 0, "market": "mlb-nyy-tor-2026-08-15", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786830661.0727804, "tick": 0, "market": "ufc-isl-ian1-2026-08-15", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786830661.0727804, "tick": 0, "market": "atp-halys-minaur-2026-08-15", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786830661.0727804, "tick": 0, "market": "mlb-wsh-nym-2026-08-15-total-8pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786830661.0727804, "tick": 0, "market": "mlb-wsh-nym-2026-08-15-total-7pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786830661.0727804, "tick": 0, "market": "ufc-jal-kau-2026-08-15", "action": "SKIP", "reason": ["racha_perdidas"]}
