@@ -2059,3 +2059,6 @@
 {"ts": 1786833706.1993473, "tick": 0, "market": "atp-paul-hurkacz-2026-08-15", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786833706.1993473, "tick": 0, "market": "mlb-wsh-nym-2026-08-15-total-7pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786833706.1993473, "tick": 0, "market": "ufc-jal-kau-2026-08-15", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786834889.8207877, "tick": 0, "market": "ufc-isl-ian1-2026-08-15", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786834889.8207877, "tick": 0, "market": "wta-navarro-kalinin-2026-08-15", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786834889.8207877, "tick": 0, "market": "atp-paul-hurkacz-2026-08-15", "action": "SKIP", "reason": ["racha_perdidas"]}
