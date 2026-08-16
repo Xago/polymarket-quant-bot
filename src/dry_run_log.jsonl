@@ -2223,3 +2223,8 @@
 {"ts": 1786901439.7803805, "tick": 0, "market": "cs2-ast10-nip-2026-08-16-game2", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786901439.7803805, "tick": 0, "market": "mlb-bal-tb-2026-08-16", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786901439.7803805, "tick": 0, "market": "por-aro-mor-2026-08-16-aro", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786902652.0160792, "tick": 0, "market": "cs2-ast10-nip-2026-08-16", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786902652.0160792, "tick": 0, "market": "lol-g2-fnc-2026-08-16-game1", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786902652.0160792, "tick": 0, "market": "atp-tsitsip-augeral-2026-08-16", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786902652.0160792, "tick": 0, "market": "wta-tjen-golubic-2026-08-16", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786902652.0160792, "tick": 0, "market": "lol-g2-fnc-2026-08-16", "action": "SKIP", "reason": ["racha_perdidas"]}
