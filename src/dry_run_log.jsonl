@@ -2077,3 +2077,8 @@
 {"ts": 1786839969.346364, "tick": 0, "market": "mlb-mil-lad-2026-08-15", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786839969.346364, "tick": 0, "market": "mls-clt-clb-2026-08-15-clt", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786839969.346364, "tick": 0, "market": "ufc-cha15-edu8-2026-08-15", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786846095.6858046, "tick": 0, "market": "ufc-isl-ian1-2026-08-15", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786846095.6858046, "tick": 0, "market": "ufc-jal-kau-2026-08-15", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786846095.6858046, "tick": 0, "market": "ufc-mac1-gil-2026-08-15", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786846095.6858046, "tick": 0, "market": "mls-hou-lag-2026-08-15-hou", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786846095.6858046, "tick": 0, "market": "mlb-kc-laa-2026-08-15-total-7pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
