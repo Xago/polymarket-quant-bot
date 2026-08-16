@@ -2179,3 +2179,8 @@
 {"ts": 1786887625.2054353, "tick": 0, "market": "cs2-mouz-prv-2026-08-16", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786887625.2054353, "tick": 0, "market": "cs2-9z-mgc-2026-08-16", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786887625.2054353, "tick": 0, "market": "ecs-ars-mci-2026-08-16-mci", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786889091.9351926, "tick": 0, "market": "ecs-ars-mci-2026-08-16-total-2pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786889091.9351926, "tick": 0, "market": "ecs-ars-mci-2026-08-16-ars", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786889091.9351926, "tick": 0, "market": "ecs-ars-mci-2026-08-16-mci", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786889091.9351926, "tick": 0, "market": "cs2-mouz-prv-2026-08-16", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786889091.9351926, "tick": 0, "market": "cs2-9z-mgc-2026-08-16", "action": "SKIP", "reason": ["racha_perdidas"]}
