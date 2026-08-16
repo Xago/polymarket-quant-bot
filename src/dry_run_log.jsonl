@@ -2107,3 +2107,8 @@
 {"ts": 1786859273.8586695, "tick": 0, "market": "lal-rrc-vil-2026-08-16-vil", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786859273.8586695, "tick": 0, "market": "us-announces-end-of-iranian-blockade-by-august-31-2026-20260713152715084-642-513-584-641-939-632-729", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786859273.8586695, "tick": 0, "market": "lol-t1-gen-2026-08-16", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786860902.7055554, "tick": 0, "market": "dota2-ts8-tr7-2026-08-16-game2", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786860902.7055554, "tick": 0, "market": "dota2-ts8-tr7-2026-08-16", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786860902.7055554, "tick": 0, "market": "ecs-ars-mci-2026-08-16-total-2pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786860902.7055554, "tick": 0, "market": "us-announces-end-of-iranian-blockade-by-august-31-2026-20260713152715084-642-513-584-641-939-632-729", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786860902.7055554, "tick": 0, "market": "lal-rrc-vil-2026-08-16-vil", "action": "SKIP", "reason": ["racha_perdidas"]}
