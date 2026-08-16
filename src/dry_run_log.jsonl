@@ -2253,3 +2253,8 @@
 {"ts": 1786910385.5486472, "tick": 0, "market": "mlb-mia-cin-2026-08-16", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786910385.5486472, "tick": 0, "market": "mlb-mil-lad-2026-08-16", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786910385.5486472, "tick": 0, "market": "bra-cam-gre-2026-08-15-cam", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786912422.881707, "tick": 0, "market": "mlb-mil-lad-2026-08-16", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786912422.881707, "tick": 0, "market": "mlb-tex-oak-2026-08-16", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786912422.881707, "tick": 0, "market": "mlb-nyy-tor-2026-08-16", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786912422.881707, "tick": 0, "market": "wta-kostyuk-kenin-2026-08-16", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786912422.881707, "tick": 0, "market": "atp-rublev-busta-2026-08-16", "action": "SKIP", "reason": ["racha_perdidas"]}
