@@ -2288,3 +2288,8 @@
 {"ts": 1786920736.7047968, "tick": 0, "market": "mex-ame-asl-2026-08-16-ame", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786920736.7047968, "tick": 0, "market": "bra-vit-bot-2026-08-16-vit", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786920736.7047968, "tick": 0, "market": "bra-cor1-cru-2026-08-16-cor1", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786922985.5440373, "tick": 0, "market": "mls-nyc-phi-2026-08-16-phi", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786922985.5440373, "tick": 0, "market": "mex-ame-asl-2026-08-16-ame", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786922985.5440373, "tick": 0, "market": "bra-cor1-cru-2026-08-16-cor1", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786922985.5440373, "tick": 0, "market": "us-announces-end-of-iranian-blockade-by-august-31-2026-20260713152715084-642-513-584-641-939-632-729", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786922985.5440373, "tick": 0, "market": "mlb-sea-hou-2026-08-16-total-7pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
