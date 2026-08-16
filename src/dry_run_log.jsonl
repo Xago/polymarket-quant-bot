@@ -2278,3 +2278,8 @@
 {"ts": 1786917708.8979008, "tick": 0, "market": "mls-nyc-phi-2026-08-16-phi", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786917708.8979008, "tick": 0, "market": "wta-siniako-maneiro-2026-08-16", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786917708.8979008, "tick": 0, "market": "bra-vit-bot-2026-08-16-vit", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786919527.6365263, "tick": 0, "market": "mlb-mil-lad-2026-08-16", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786919527.6365263, "tick": 0, "market": "mls-nyc-phi-2026-08-16-phi", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786919527.6365263, "tick": 0, "market": "bra-vit-bot-2026-08-16-vit", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786919527.6365263, "tick": 0, "market": "bra-cor1-cru-2026-08-16-cor1", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786919527.6365263, "tick": 0, "market": "wnba-ind-atl-2026-08-16", "action": "SKIP", "reason": ["racha_perdidas"]}
