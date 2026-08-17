@@ -2303,3 +2303,8 @@
 {"ts": 1786926254.984004, "tick": 0, "market": "mlb-sea-hou-2026-08-16-total-7pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786926254.984004, "tick": 0, "market": "wta-gauff-samsono-2026-08-16", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786926254.984004, "tick": 0, "market": "us-announces-end-of-iranian-blockade-by-august-31-2026-20260713152715084-642-513-584-641-939-632-729", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786932385.782365, "tick": 0, "market": "mlb-sea-hou-2026-08-16", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786932385.782365, "tick": 0, "market": "mls-sea-vwh-2026-08-16-vwh", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786932385.782365, "tick": 0, "market": "mlb-sea-hou-2026-08-16-total-7pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786932385.782365, "tick": 0, "market": "atp-sonego-tiafoe-2026-08-16", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786932385.782365, "tick": 0, "market": "us-announces-end-of-iranian-blockade-by-august-31-2026-20260713152715084-642-513-584-641-939-632-729", "action": "SKIP", "reason": ["racha_perdidas"]}
