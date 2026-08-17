@@ -2313,3 +2313,8 @@
 {"ts": 1786936197.9201596, "tick": 0, "market": "val-c9-eg2-2026-08-16", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786936197.9201596, "tick": 0, "market": "mex-tij-caz-2026-08-16-caz", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1786936197.9201596, "tick": 0, "market": "us-announces-end-of-iranian-blockade-by-august-31-2026-20260713152715084-642-513-584-641-939-632-729", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786939614.2354386, "tick": 0, "market": "mls-sea-vwh-2026-08-16-vwh", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786939614.2354386, "tick": 0, "market": "mex-tij-caz-2026-08-16-caz", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786939614.2354386, "tick": 0, "market": "us-announces-end-of-iranian-blockade-by-august-31-2026-20260713152715084-642-513-584-641-939-632-729", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786939614.2354386, "tick": 0, "market": "strait-of-hormuz-traffic-returns-to-normal-by-september-30-20260702154339440", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1786939614.2354386, "tick": 0, "market": "bitcoin-up-or-down-on-august-17-2026", "action": "SKIP", "reason": ["racha_perdidas"]}
