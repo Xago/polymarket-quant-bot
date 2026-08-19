@@ -2816,3 +2816,8 @@
 {"ts": 1787171920.8196268, "tick": 0, "market": "dota2-vsn2-boombo-2026-08-20", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1787171920.8196268, "tick": 0, "market": "wta-noskova-anisimo-2026-08-19", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1787171920.8196268, "tick": 0, "market": "cs2-gl1-mouz-2026-08-19", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787173887.7041383, "tick": 0, "market": "cs2-furia-aur1-2026-08-19", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787173887.7041383, "tick": 0, "market": "dota2-vsn2-boombo-2026-08-20", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787173887.7041383, "tick": 0, "market": "cs2-gl1-mouz-2026-08-19", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787173887.7041383, "tick": 0, "market": "wta-noskova-anisimo-2026-08-19", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787173887.7041383, "tick": 0, "market": "mlb-ari-bos-2026-08-19-total-8pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
