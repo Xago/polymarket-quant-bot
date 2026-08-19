@@ -2766,3 +2766,8 @@
 {"ts": 1787152526.479206, "tick": 0, "market": "cs2-g2-ast10-2026-08-19", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1787152526.479206, "tick": 0, "market": "us-iran-final-nuclear-deal-by-december-31-2026-191", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1787152526.479206, "tick": 0, "market": "bitcoin-above-66k-on-august-19-2026", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787154631.171106, "tick": 0, "market": "cs2-fut-mgc-2026-08-19", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787154631.171106, "tick": 0, "market": "cs2-g2-ast10-2026-08-19", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787154631.171106, "tick": 0, "market": "bitcoin-above-68k-on-august-19-2026", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787154631.171106, "tick": 0, "market": "dota2-vsn2-boombo-2026-08-20", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787154631.171106, "tick": 0, "market": "atp-jodar-cobolli-2026-08-19", "action": "SKIP", "reason": ["racha_perdidas"]}
