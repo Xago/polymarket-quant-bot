@@ -2851,3 +2851,8 @@
 {"ts": 1787184132.8201542, "tick": 0, "market": "atp-borges-nakashi-2026-08-19", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1787184132.8201542, "tick": 0, "market": "will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1787184132.8201542, "tick": 0, "market": "will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787190393.2902064, "tick": 0, "market": "mls-col-laf-2026-08-19-col", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787190393.2902064, "tick": 0, "market": "mlb-sea-mil-2026-08-19", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787190393.2902064, "tick": 0, "market": "will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787190393.2902064, "tick": 0, "market": "will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787190393.2902064, "tick": 0, "market": "mlb-oak-kc-2026-08-19", "action": "SKIP", "reason": ["racha_perdidas"]}
