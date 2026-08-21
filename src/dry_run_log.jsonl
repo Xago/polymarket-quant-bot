@@ -3132,3 +3132,8 @@
 {"ts": 1787330789.972744, "tick": 0, "market": "dota2-ty-ngx-2026-08-21-game2", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1787330789.972744, "tick": 0, "market": "will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1787330789.972744, "tick": 0, "market": "will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787332466.9766474, "tick": 0, "market": "dota2-ty-ngx-2026-08-21", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787332466.9766474, "tick": 0, "market": "cs2-vit-ts7-2026-08-21", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787332466.9766474, "tick": 0, "market": "will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787332466.9766474, "tick": 0, "market": "cs2-vit-ts7-2026-08-21-game1", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787332466.9766474, "tick": 0, "market": "will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649", "action": "SKIP", "reason": ["racha_perdidas"]}
