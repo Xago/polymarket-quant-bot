@@ -3300,3 +3300,8 @@
 {"ts": 1787400974.819884, "tick": 0, "market": "will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1787400974.819884, "tick": 0, "market": "epl-hul-mun-2026-08-22-mun", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1787400974.819884, "tick": 0, "market": "will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787403881.7571359, "tick": 0, "market": "epl-bre-tot-2026-08-22-bre", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787403881.7571359, "tick": 0, "market": "will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787403881.7571359, "tick": 0, "market": "will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787403881.7571359, "tick": 0, "market": "epl-hul-mun-2026-08-22-hul", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787403881.7571359, "tick": 0, "market": "lol-jdg-tes-2026-08-22", "action": "SKIP", "reason": ["racha_perdidas"]}
