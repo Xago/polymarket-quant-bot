@@ -3345,3 +3345,8 @@
 {"ts": 1787417067.316936, "tick": 0, "market": "sea-udi-com-2026-08-22-com", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1787417067.316936, "tick": 0, "market": "clarity-act-signed-into-law-in-2026", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1787417067.316936, "tick": 0, "market": "sea-gen-nap-2026-08-22-nap", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787418231.5382333, "tick": 0, "market": "cs2-furia-fut-2026-08-22", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787418231.5382333, "tick": 0, "market": "epl-bre-tot-2026-08-22-bre", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787418231.5382333, "tick": 0, "market": "sea-int-mon-2026-08-22-int", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787418231.5382333, "tick": 0, "market": "sea-udi-com-2026-08-22-com", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787418231.5382333, "tick": 0, "market": "epl-bre-tot-2026-08-22-tot", "action": "SKIP", "reason": ["racha_perdidas"]}
