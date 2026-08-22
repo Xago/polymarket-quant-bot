@@ -3404,3 +3404,7 @@
 {"ts": 1787437991.764248, "tick": 0, "market": "bra-int-cam-2026-08-22-int", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1787437991.764248, "tick": 0, "market": "mlb-stl-phi-2026-08-22", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1787437991.764248, "tick": 0, "market": "will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787439250.8029695, "tick": 0, "market": "dota2-ty-ts8-2026-08-22", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787439250.8029695, "tick": 0, "market": "bra-int-cam-2026-08-22-int", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787439250.8029695, "tick": 0, "market": "ufc-chr52-nas-2026-08-22", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787439250.8029695, "tick": 0, "market": "mlb-stl-phi-2026-08-22", "action": "SKIP", "reason": ["racha_perdidas"]}
