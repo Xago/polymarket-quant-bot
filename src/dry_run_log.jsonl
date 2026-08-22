@@ -3370,3 +3370,8 @@
 {"ts": 1787425835.93501, "tick": 0, "market": "fl1-tro-pfc-2026-08-22-pfc", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1787425835.93501, "tick": 0, "market": "fl1-ogc-lor-2026-08-22-ogc", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1787425835.93501, "tick": 0, "market": "lal-esp-rea-2026-08-22-rea", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787427640.3479047, "tick": 0, "market": "cs2-lgc-ts7-2026-08-22", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787427640.3479047, "tick": 0, "market": "lal-esp-rea-2026-08-22-rea", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787427640.3479047, "tick": 0, "market": "fl1-tro-pfc-2026-08-22-pfc", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787427640.3479047, "tick": 0, "market": "fl1-ogc-lor-2026-08-22-ogc", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787427640.3479047, "tick": 0, "market": "mlb-atl-mil-2026-08-22", "action": "SKIP", "reason": ["racha_perdidas"]}
