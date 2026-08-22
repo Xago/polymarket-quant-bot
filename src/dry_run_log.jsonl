@@ -3375,3 +3375,8 @@
 {"ts": 1787427640.3479047, "tick": 0, "market": "fl1-tro-pfc-2026-08-22-pfc", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1787427640.3479047, "tick": 0, "market": "fl1-ogc-lor-2026-08-22-ogc", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1787427640.3479047, "tick": 0, "market": "mlb-atl-mil-2026-08-22", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787428854.09251, "tick": 0, "market": "lal-esp-rea-2026-08-22-rea", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787428854.09251, "tick": 0, "market": "fl1-tro-pfc-2026-08-22-pfc", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787428854.09251, "tick": 0, "market": "mlb-atl-mil-2026-08-22", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787428854.09251, "tick": 0, "market": "sea-gen-nap-2026-08-22-nap", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787428854.09251, "tick": 0, "market": "fl1-ogc-lor-2026-08-22-ogc", "action": "SKIP", "reason": ["racha_perdidas"]}
