@@ -3408,3 +3408,8 @@
 {"ts": 1787439250.8029695, "tick": 0, "market": "bra-int-cam-2026-08-22-int", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1787439250.8029695, "tick": 0, "market": "ufc-chr52-nas-2026-08-22", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1787439250.8029695, "tick": 0, "market": "mlb-stl-phi-2026-08-22", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787441424.6218016, "tick": 0, "market": "mls-orl-rsl-2026-08-22-orl", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787441424.6218016, "tick": 0, "market": "atp-nakashi-tiafoe-2026-08-22", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787441424.6218016, "tick": 0, "market": "dota2-ty-ts8-2026-08-22", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787441424.6218016, "tick": 0, "market": "mls-mia-tor-2026-08-22-spread-home-1pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787441424.6218016, "tick": 0, "market": "mlb-tb-bal-2026-08-22", "action": "SKIP", "reason": ["racha_perdidas"]}
