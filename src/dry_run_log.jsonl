@@ -3516,3 +3516,8 @@
 {"ts": 1787492568.574478, "tick": 0, "market": "epl-mac-bou-2026-08-23-mac", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1787492568.574478, "tick": 0, "market": "lol-blg-al-2026-08-23", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1787492568.574478, "tick": 0, "market": "lal-mad-vil-2026-08-23-mad", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787494083.7306247, "tick": 0, "market": "cs2-fut-ts7-2026-08-23", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787494083.7306247, "tick": 0, "market": "epl-new-liv-2026-08-23-liv", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787494083.7306247, "tick": 0, "market": "epl-mac-bou-2026-08-23-mac", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787494083.7306247, "tick": 0, "market": "lol-blg-al-2026-08-23", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787494083.7306247, "tick": 0, "market": "lal-elc-bar-2026-08-23-bar", "action": "SKIP", "reason": ["racha_perdidas"]}
