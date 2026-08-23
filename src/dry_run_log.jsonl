@@ -3571,3 +3571,8 @@
 {"ts": 1787511127.0652788, "tick": 0, "market": "fl1-psg-ren-2026-08-23-psg", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1787511127.0652788, "tick": 0, "market": "mlb-tb-bal-2026-08-23", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1787511127.0652788, "tick": 0, "market": "will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787512481.6034312, "tick": 0, "market": "sea-tor-mil-2026-08-23-mil", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787512481.6034312, "tick": 0, "market": "lal-elc-bar-2026-08-23-bar", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787512481.6034312, "tick": 0, "market": "fl1-psg-ren-2026-08-23-psg", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787512481.6034312, "tick": 0, "market": "mlb-tb-bal-2026-08-23", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787512481.6034312, "tick": 0, "market": "mlb-tor-nyy-2026-08-23", "action": "SKIP", "reason": ["racha_perdidas"]}
