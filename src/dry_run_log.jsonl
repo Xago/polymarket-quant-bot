@@ -3541,3 +3541,8 @@
 {"ts": 1787500394.6309135, "tick": 0, "market": "epl-new-liv-2026-08-23-liv", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1787500394.6309135, "tick": 0, "market": "lal-mad-vil-2026-08-23-mad", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1787500394.6309135, "tick": 0, "market": "sea-ven-lec-2026-08-23-ven", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787503000.0574594, "tick": 0, "market": "epl-new-liv-2026-08-23-liv", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787503000.0574594, "tick": 0, "market": "fl1-hac-asm-2026-08-23-asm", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787503000.0574594, "tick": 0, "market": "sea-ven-lec-2026-08-23-ven", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787503000.0574594, "tick": 0, "market": "lal-mad-vil-2026-08-23-mad", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787503000.0574594, "tick": 0, "market": "epl-new-liv-2026-08-23-new", "action": "SKIP", "reason": ["racha_perdidas"]}
