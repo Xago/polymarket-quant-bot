@@ -3586,3 +3586,8 @@
 {"ts": 1787515233.7214959, "tick": 0, "market": "fl1-psg-ren-2026-08-23-psg", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1787515233.7214959, "tick": 0, "market": "lal-elc-bar-2026-08-23-spread-away-1pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1787515233.7214959, "tick": 0, "market": "tur-ala-bes-2026-08-23-bes", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787517260.3890002, "tick": 0, "market": "fl1-psg-ren-2026-08-23-psg", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787517260.3890002, "tick": 0, "market": "atp-fils-tiafoe-2026-08-23", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787517260.3890002, "tick": 0, "market": "mlb-chc-sea-2026-08-23", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787517260.3890002, "tick": 0, "market": "lal-elc-bar-2026-08-23-spread-away-1pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787517260.3890002, "tick": 0, "market": "mlb-oak-hou-2026-08-23", "action": "SKIP", "reason": ["racha_perdidas"]}
