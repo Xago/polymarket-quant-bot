@@ -3428,3 +3428,8 @@
 {"ts": 1787451099.3900266, "tick": 0, "market": "mls-vwh-dal-2026-08-22-spread-home-1pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1787451099.3900266, "tick": 0, "market": "mlb-min-sd-2026-08-22", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1787451099.3900266, "tick": 0, "market": "dota2-ty-ts8-2026-08-22-game-handicap-home-1pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787455506.9432695, "tick": 0, "market": "dota2-ty-ts8-2026-08-22", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787455506.9432695, "tick": 0, "market": "dota2-ty-ts8-2026-08-22-game2", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787455506.9432695, "tick": 0, "market": "epl-new-liv-2026-08-23-liv", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787455506.9432695, "tick": 0, "market": "dota2-ty-ts8-2026-08-22-game-handicap-home-1pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1787455506.9432695, "tick": 0, "market": "wnba-atl-phx-2026-08-22", "action": "SKIP", "reason": ["racha_perdidas"]}
