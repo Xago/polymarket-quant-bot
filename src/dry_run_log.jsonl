@@ -4117,3 +4117,8 @@
 {"ts": 1788074498.9205406, "tick": 0, "market": "epl-che-bri-2026-08-30-che", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1788074498.9205406, "tick": 0, "market": "cs2-g2-navi-2026-08-30", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1788074498.9205406, "tick": 0, "market": "lal-rea-mala-2026-08-30-rea", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1788094926.2389758, "tick": 0, "market": "epl-che-bri-2026-08-30-che", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1788094926.2389758, "tick": 0, "market": "epl-sun-ful-2026-08-30-sun", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1788094926.2389758, "tick": 0, "market": "epl-sun-ful-2026-08-30-ful", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1788094926.2389758, "tick": 0, "market": "epl-lee-bre-2026-08-30-bre", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1788094926.2389758, "tick": 0, "market": "cs2-m80-aur1-2026-08-30", "action": "SKIP", "reason": ["racha_perdidas"]}
