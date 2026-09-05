@@ -4317,3 +4317,8 @@
 {"ts": 1788610065.6476028, "tick": 0, "market": "epl-mac-cov-2026-09-05-mac", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1788610065.6476028, "tick": 0, "market": "will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1788610065.6476028, "tick": 0, "market": "epl-new-bou-2026-09-05-new", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1788621616.8503156, "tick": 0, "market": "epl-mac-cov-2026-09-05-spread-home-1pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1788621616.8503156, "tick": 0, "market": "cs2-ts7-fal2-2026-09-05", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1788621616.8503156, "tick": 0, "market": "epl-bri-lee-2026-09-05-bri", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1788621616.8503156, "tick": 0, "market": "israel-closes-its-airspace-by-september-30", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1788621616.8503156, "tick": 0, "market": "will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615", "action": "SKIP", "reason": ["racha_perdidas"]}
