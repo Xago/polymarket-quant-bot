@@ -4431,3 +4431,8 @@
 {"ts": 1788877526.6533868, "tick": 0, "market": "will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1788877526.6533868, "tick": 0, "market": "cs2-g2-ast10-2026-09-08", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1788877526.6533868, "tick": 0, "market": "cs2-g2-ast10-2026-09-08-game1", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1788890597.482263, "tick": 0, "market": "ucl-bvb-vil-2026-09-08-bvb", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1788890597.482263, "tick": 0, "market": "wta-sabalen-noskova-2026-09-08", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1788890597.482263, "tick": 0, "market": "atp-wild-ferrar-2026-09-08", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1788890597.482263, "tick": 0, "market": "atp-tiafoe-michels-2026-09-08", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1788890597.482263, "tick": 0, "market": "ucl-bru-ast-2026-09-08-ast", "action": "SKIP", "reason": ["racha_perdidas"]}
