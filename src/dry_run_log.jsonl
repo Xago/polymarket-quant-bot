@@ -4466,3 +4466,8 @@
 {"ts": 1788966591.758508, "tick": 0, "market": "ucl-spo-gal-2026-09-09-spo", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1788966591.758508, "tick": 0, "market": "will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1788966591.758508, "tick": 0, "market": "laptop-fdv-above-500m-one-day-after-launch", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1788979301.0266757, "tick": 0, "market": "ucl-spo-gal-2026-09-09-spo", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1788979301.0266757, "tick": 0, "market": "ucl-nap-ars-2026-09-09-ars", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1788979301.0266757, "tick": 0, "market": "wta-andreev-gauff-2026-09-08", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1788979301.0266757, "tick": 0, "market": "atp-khachan-blockx-2026-09-09", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1788979301.0266757, "tick": 0, "market": "laptop-fdv-above-1b-one-day-after-launch", "action": "SKIP", "reason": ["racha_perdidas"]}
