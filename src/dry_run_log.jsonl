@@ -4765,3 +4765,8 @@
 {"ts": 1789748329.0551698, "tick": 0, "market": "epl-bre-che-2026-09-18-che", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1789748329.0551698, "tick": 0, "market": "epl-tot-ast-2026-09-19-total-2pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1789748329.0551698, "tick": 0, "market": "will-there-be-no-change-in-fed-interest-rates-after-the-october-2026-meeting-20260617190324031", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1789758266.5288286, "tick": 0, "market": "epl-bre-che-2026-09-18-che", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1789758266.5288286, "tick": 0, "market": "will-united-russia-er-gain-the-most-seats-in-the-next-russian-parliamentary-election", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1789758266.5288286, "tick": 0, "market": "epl-bre-che-2026-09-18-bre", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1789758266.5288286, "tick": 0, "market": "epl-tot-ast-2026-09-19-total-2pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1789758266.5288286, "tick": 0, "market": "cs2-vit-furia-2026-09-18", "action": "SKIP", "reason": ["racha_perdidas"]}
