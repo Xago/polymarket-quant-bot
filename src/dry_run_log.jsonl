@@ -4835,3 +4835,8 @@
 {"ts": 1789906594.266019, "tick": 0, "market": "nfl-no-bal-2026-09-20-spread-home-8pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1789906594.266019, "tick": 0, "market": "nfl-pit-ne-2026-09-20", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1789906594.266019, "tick": 0, "market": "epl-mac-sun-2026-09-20-mac", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1789920910.5117993, "tick": 0, "market": "nfl-min-chi-2026-09-20", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1789920910.5117993, "tick": 0, "market": "nfl-car-atl-2026-09-20", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1789920910.5117993, "tick": 0, "market": "nfl-cin-hou-2026-09-20", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1789920910.5117993, "tick": 0, "market": "nfl-no-bal-2026-09-20-spread-home-8pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1789920910.5117993, "tick": 0, "market": "nfl-phi-ten-2026-09-20", "action": "SKIP", "reason": ["racha_perdidas"]}
