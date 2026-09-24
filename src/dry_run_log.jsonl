@@ -4965,3 +4965,8 @@
 {"ts": 1790281446.860677, "tick": 0, "market": "unl-nld-ger-2026-09-24-ger", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1790281446.860677, "tick": 0, "market": "will-the-fed-increase-interest-rates-by-25-bps-after-the-october-2026-meeting-20260617190324032", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1790281446.860677, "tick": 0, "market": "will-there-be-no-change-in-fed-interest-rates-after-the-october-2026-meeting-20260617190324031", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1790292227.4065373, "tick": 0, "market": "nfl-atl-gb-2026-09-25-spread-home-4pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1790292227.4065373, "tick": 0, "market": "mlb-mil-phi-2026-09-24", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1790292227.4065373, "tick": 0, "market": "will-the-fed-increase-interest-rates-by-25-bps-after-the-october-2026-meeting-20260617190324032", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1790292227.4065373, "tick": 0, "market": "atp-blanc-andrade-2026-09-24", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1790292227.4065373, "tick": 0, "market": "nfl-atl-gb-2026-09-25-spread-home-5pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
