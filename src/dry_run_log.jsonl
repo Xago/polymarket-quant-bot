@@ -5019,3 +5019,8 @@
 {"ts": 1790440985.1144035, "tick": 0, "market": "will-the-us-invade-iran-before-2027", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1790440985.1144035, "tick": 0, "market": "cfb-sdst-toledo-2026-09-26", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1790440985.1144035, "tick": 0, "market": "cfb-tx-tenn-2026-09-26", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1790450850.259666, "tick": 0, "market": "unl-eng-esp-2026-09-26-esp", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1790450850.259666, "tick": 0, "market": "unl-eng-esp-2026-09-26-eng", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1790450850.259666, "tick": 0, "market": "will-the-us-invade-iran-before-2027", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1790450850.259666, "tick": 0, "market": "unl-eng-esp-2026-09-26-draw", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1790450850.259666, "tick": 0, "market": "cs2-mgc-gl1-2026-09-26", "action": "SKIP", "reason": ["racha_perdidas"]}
