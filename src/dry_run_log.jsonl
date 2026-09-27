@@ -5029,3 +5029,8 @@
 {"ts": 1790460622.0536997, "tick": 0, "market": "cfb-iowa-mich-2026-09-26", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1790460622.0536997, "tick": 0, "market": "cfb-tcu-ucf-2026-09-26", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1790460622.0536997, "tick": 0, "market": "us-x-iran-ceasefire-continues-through-september-30-20260917", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1790469689.374923, "tick": 0, "market": "cfb-ore-usc-2026-09-26", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1790469689.374923, "tick": 0, "market": "cfb-txam-lsu-2026-09-26", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1790469689.374923, "tick": 0, "market": "us-x-iran-ceasefire-continues-through-september-30-20260917", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1790469689.374923, "tick": 0, "market": "cfb-missr-mspst-2026-09-26", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1790469689.374923, "tick": 0, "market": "cfb-txam-lsu-2026-09-26-spread-home-8pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
