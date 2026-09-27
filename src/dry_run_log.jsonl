@@ -5054,3 +5054,8 @@
 {"ts": 1790536514.46407, "tick": 0, "market": "nfl-lac-buf-2026-09-27-spread-home-7pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1790536514.46407, "tick": 0, "market": "nfl-sea-was-2026-09-27", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1790536514.46407, "tick": 0, "market": "nfl-hou-ind-2026-09-27", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1790547606.2565048, "tick": 0, "market": "nfl-min-tb-2026-09-27", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1790547606.2565048, "tick": 0, "market": "nfl-bal-dal-2026-09-27", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1790547606.2565048, "tick": 0, "market": "nfl-lv-no-2026-09-27", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1790547606.2565048, "tick": 0, "market": "nfl-ari-sf-2026-09-27-spread-home-7pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1790547606.2565048, "tick": 0, "market": "nfl-la-den-2026-09-28-spread-away-1pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
