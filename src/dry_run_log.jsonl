@@ -5068,3 +5068,8 @@
 {"ts": 1790577730.3718388, "tick": 0, "market": "nfl-phi-chi-2026-09-29-spread-away-3pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1790577730.3718388, "tick": 0, "market": "wta-wei-huang-2026-09-28", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1790577730.3718388, "tick": 0, "market": "nfl-phi-chi-2026-09-29-spread-home-3pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1790606054.7889645, "tick": 0, "market": "nfl-phi-chi-2026-09-29", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1790606054.7889645, "tick": 0, "market": "nfl-phi-chi-2026-09-29-spread-away-3pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1790606054.7889645, "tick": 0, "market": "nfl-phi-chi-2026-09-29-spread-away-4pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1790606054.7889645, "tick": 0, "market": "cs2-nip-gl1-2026-09-28", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1790606054.7889645, "tick": 0, "market": "unl-bel-fra-2026-09-28-fra", "action": "SKIP", "reason": ["racha_perdidas"]}
