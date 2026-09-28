@@ -5059,3 +5059,8 @@
 {"ts": 1790547606.2565048, "tick": 0, "market": "nfl-lv-no-2026-09-27", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1790547606.2565048, "tick": 0, "market": "nfl-ari-sf-2026-09-27-spread-home-7pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1790547606.2565048, "tick": 0, "market": "nfl-la-den-2026-09-28-spread-away-1pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1790556908.790838, "tick": 0, "market": "nfl-la-den-2026-09-28", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1790556908.790838, "tick": 0, "market": "nfl-la-den-2026-09-28-spread-away-1pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1790556908.790838, "tick": 0, "market": "nfl-la-den-2026-09-28-total-44pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1790556908.790838, "tick": 0, "market": "nfl-la-den-2026-09-28-spread-away-2pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1790556908.790838, "tick": 0, "market": "mls-clb-mia-2026-09-27-mia", "action": "SKIP", "reason": ["racha_perdidas"]}
