@@ -5143,3 +5143,8 @@
 {"ts": 1790869417.6202092, "tick": 0, "market": "will-there-be-no-change-in-fed-interest-rates-after-the-october-2026-meeting-20260617190324031", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1790869417.6202092, "tick": 0, "market": "will-the-fed-increase-interest-rates-by-25-bps-after-the-october-2026-meeting-20260617190324032", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1790869417.6202092, "tick": 0, "market": "unl-grc-nld-2026-10-01-nld", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1790886902.8190107, "tick": 0, "market": "unl-den-prt-2026-10-01-prt", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1790886902.8190107, "tick": 0, "market": "unl-wal-nor-2026-10-01-wal", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1790886902.8190107, "tick": 0, "market": "cs2-faze-nemi1-2026-10-01", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1790886902.8190107, "tick": 0, "market": "will-there-be-no-change-in-fed-interest-rates-after-the-october-2026-meeting-20260617190324031", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1790886902.8190107, "tick": 0, "market": "nfl-pit-cle-2026-10-02", "action": "SKIP", "reason": ["racha_perdidas"]}
