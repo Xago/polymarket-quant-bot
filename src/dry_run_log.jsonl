@@ -5197,3 +5197,8 @@
 {"ts": 1791052739.9141772, "tick": 0, "market": "cfb-ucf-hou-2026-10-03", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1791052739.9141772, "tick": 0, "market": "cfb-mich-minnst-2026-10-03", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1791052739.9141772, "tick": 0, "market": "cfb-wvir-iowast-2026-10-03", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1791064200.1409981, "tick": 0, "market": "cfb-fl-missr-2026-10-03", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1791064200.1409981, "tick": 0, "market": "mlb-atl-lad-2026-10-03", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1791064200.1409981, "tick": 0, "market": "lol-c9-ly-2026-10-03", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1791064200.1409981, "tick": 0, "market": "cfb-ohiost-iowa-2026-10-03-spread-away-14pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1791064200.1409981, "tick": 0, "market": "cfb-uk-sc-2026-10-03", "action": "SKIP", "reason": ["racha_perdidas"]}
