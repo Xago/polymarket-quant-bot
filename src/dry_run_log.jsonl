@@ -5227,3 +5227,8 @@
 {"ts": 1791144295.8875196, "tick": 0, "market": "nfl-ne-buf-2026-10-04", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1791144295.8875196, "tick": 0, "market": "nfl-ari-nyg-2026-10-04", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1791144295.8875196, "tick": 0, "market": "nfl-jax-cin-2026-10-04", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1791154962.3441622, "tick": 0, "market": "nfl-den-sf-2026-10-04", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1791154962.3441622, "tick": 0, "market": "nfl-kc-lv-2026-10-04", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1791154962.3441622, "tick": 0, "market": "mlb-atl-lad-2026-10-04", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1791154962.3441622, "tick": 0, "market": "will-flvio-bolsonaro-win-the-2026-brazilian-presidential-election", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1791154962.3441622, "tick": 0, "market": "will-luiz-incio-lula-da-silva-win-the-2026-brazilian-presidential-election", "action": "SKIP", "reason": ["racha_perdidas"]}
