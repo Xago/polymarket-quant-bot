@@ -5217,3 +5217,8 @@
 {"ts": 1791116085.1720486, "tick": 0, "market": "nfl-ind-was-2026-10-04", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1791116085.1720486, "tick": 0, "market": "will-flvio-bolsonaro-win-the-2026-brazilian-presidential-election", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1791116085.1720486, "tick": 0, "market": "will-luiz-incio-lula-da-silva-win-the-2026-brazilian-presidential-election", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1791132890.1977475, "tick": 0, "market": "nfl-ne-buf-2026-10-04", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1791132890.1977475, "tick": 0, "market": "nfl-dal-hou-2026-10-04", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1791132890.1977475, "tick": 0, "market": "cs2-vit-navi-2026-10-04", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1791132890.1977475, "tick": 0, "market": "cs2-nemi1-ast10-2026-10-04", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1791132890.1977475, "tick": 0, "market": "nfl-den-sf-2026-10-04-spread-home-2pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
