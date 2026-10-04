@@ -5222,3 +5222,8 @@
 {"ts": 1791132890.1977475, "tick": 0, "market": "cs2-vit-navi-2026-10-04", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1791132890.1977475, "tick": 0, "market": "cs2-nemi1-ast10-2026-10-04", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1791132890.1977475, "tick": 0, "market": "nfl-den-sf-2026-10-04-spread-home-2pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1791144295.8875196, "tick": 0, "market": "nfl-dal-hou-2026-10-04", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1791144295.8875196, "tick": 0, "market": "nfl-la-phi-2026-10-04", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1791144295.8875196, "tick": 0, "market": "nfl-ne-buf-2026-10-04", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1791144295.8875196, "tick": 0, "market": "nfl-ari-nyg-2026-10-04", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1791144295.8875196, "tick": 0, "market": "nfl-jax-cin-2026-10-04", "action": "SKIP", "reason": ["racha_perdidas"]}
