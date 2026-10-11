@@ -5360,3 +5360,8 @@
 {"ts": 1791671151.926581, "tick": 0, "market": "lal-ray-bil-2026-10-10-bil", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1791671151.926581, "tick": 0, "market": "cfb-tx-okl-2026-10-10-spread-away-7pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1791671151.926581, "tick": 0, "market": "cfb-duke-gtech-2026-10-10", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1791681139.2115846, "tick": 0, "market": "cfb-ga-ala-2026-10-10", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1791681139.2115846, "tick": 0, "market": "lal-ray-bil-2026-10-10-bil", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1791681139.2115846, "tick": 0, "market": "mlb-cws-cle-2026-10-10", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1791681139.2115846, "tick": 0, "market": "cfb-lsu-uk-2026-10-10", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1791681139.2115846, "tick": 0, "market": "cfb-usc-pennst-2026-10-10", "action": "SKIP", "reason": ["racha_perdidas"]}
