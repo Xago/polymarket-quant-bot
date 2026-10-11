@@ -5380,3 +5380,8 @@
 {"ts": 1791745175.773902, "tick": 0, "market": "nfl-chi-gb-2026-10-11", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1791745175.773902, "tick": 0, "market": "nfl-cle-nyj-2026-10-11", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1791745175.773902, "tick": 0, "market": "nfl-hou-ten-2026-10-11-total-38pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1791758872.073656, "tick": 0, "market": "nfl-sf-sea-2026-10-11", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1791758872.073656, "tick": 0, "market": "nfl-den-lac-2026-10-11", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1791758872.073656, "tick": 0, "market": "mlb-lad-mil-2026-10-11", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1791758872.073656, "tick": 0, "market": "nfl-sf-sea-2026-10-11-spread-away-4pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1791758872.073656, "tick": 0, "market": "will-flvio-bolsonaro-win-the-2026-brazilian-presidential-election", "action": "SKIP", "reason": ["racha_perdidas"]}
