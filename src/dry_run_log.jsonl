@@ -5385,3 +5385,8 @@
 {"ts": 1791758872.073656, "tick": 0, "market": "mlb-lad-mil-2026-10-11", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1791758872.073656, "tick": 0, "market": "nfl-sf-sea-2026-10-11-spread-away-4pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1791758872.073656, "tick": 0, "market": "will-flvio-bolsonaro-win-the-2026-brazilian-presidential-election", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1791769822.0337148, "tick": 0, "market": "nfl-bal-atl-2026-10-12", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1791769822.0337148, "tick": 0, "market": "mlb-lad-mil-2026-10-11", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1791769822.0337148, "tick": 0, "market": "nfl-bal-atl-2026-10-12-total-43pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1791769822.0337148, "tick": 0, "market": "mlb-lad-mil-2026-10-11-total-6pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1791769822.0337148, "tick": 0, "market": "will-the-us-invade-iran-before-2027", "action": "SKIP", "reason": ["racha_perdidas"]}
