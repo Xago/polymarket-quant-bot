@@ -5540,3 +5540,8 @@
 {"ts": 1792256528.0766895, "tick": 0, "market": "lal-bet-bar-2026-10-17-bar", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1792256528.0766895, "tick": 0, "market": "fl1-str-psg-2026-10-17-psg", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1792256528.0766895, "tick": 0, "market": "lal-bet-bar-2026-10-17-spread-away-1pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1792264532.795526, "tick": 0, "market": "cs2-fal2-bb3-2026-10-17", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1792264532.795526, "tick": 0, "market": "sea-rom-gen-2026-10-17-rom", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1792264532.795526, "tick": 0, "market": "cfb-ohiost-ind-2026-10-17", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1792264532.795526, "tick": 0, "market": "lol-mvk-fur-2026-10-17", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1792264532.795526, "tick": 0, "market": "cfb-fl-tx-2026-10-17", "action": "SKIP", "reason": ["racha_perdidas"]}
