@@ -5535,3 +5535,8 @@
 {"ts": 1792245223.9954977, "tick": 0, "market": "us-x-iran-ceasefire-continues-through-october-31-20260917", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1792245223.9954977, "tick": 0, "market": "bun-hsv-stu-2026-10-17-stu", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1792245223.9954977, "tick": 0, "market": "epl-ful-hul-2026-10-17-ful", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1792256528.0766895, "tick": 0, "market": "cs2-fal2-bb3-2026-10-17", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1792256528.0766895, "tick": 0, "market": "epl-new-ast-2026-10-17-new", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1792256528.0766895, "tick": 0, "market": "lal-bet-bar-2026-10-17-bar", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1792256528.0766895, "tick": 0, "market": "fl1-str-psg-2026-10-17-psg", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1792256528.0766895, "tick": 0, "market": "lal-bet-bar-2026-10-17-spread-away-1pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
