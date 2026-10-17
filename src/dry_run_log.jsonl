@@ -5545,3 +5545,8 @@
 {"ts": 1792264532.795526, "tick": 0, "market": "cfb-ohiost-ind-2026-10-17", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1792264532.795526, "tick": 0, "market": "lol-mvk-fur-2026-10-17", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1792264532.795526, "tick": 0, "market": "cfb-fl-tx-2026-10-17", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1792272690.1498804, "tick": 0, "market": "wnba-atl-gsv-2026-10-17", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1792272690.1498804, "tick": 0, "market": "cfb-unlv-airf-2026-10-17", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1792272690.1498804, "tick": 0, "market": "crint-ind-wst-2026-10-17", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1792272690.1498804, "tick": 0, "market": "mlb-tb-cle-2026-10-16", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1792272690.1498804, "tick": 0, "market": "us-x-iran-ceasefire-continues-through-october-31-20260917", "action": "SKIP", "reason": ["racha_perdidas"]}
