@@ -5580,3 +5580,8 @@
 {"ts": 1792344668.085296, "tick": 0, "market": "nfl-no-nyg-2026-10-18", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1792344668.085296, "tick": 0, "market": "nfl-pit-tb-2026-10-18", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1792344668.085296, "tick": 0, "market": "nfl-chi-atl-2026-10-18", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1792352195.3858132, "tick": 0, "market": "nfl-car-phi-2026-10-18", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1792352195.3858132, "tick": 0, "market": "fl1-lyo-ogc-2026-10-18-lyo", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1792352195.3858132, "tick": 0, "market": "nfl-pit-tb-2026-10-18", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1792352195.3858132, "tick": 0, "market": "cs2-furia-bb3-2026-10-18", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1792352195.3858132, "tick": 0, "market": "lal-rea-sev-2026-10-18-draw", "action": "SKIP", "reason": ["racha_perdidas"]}
