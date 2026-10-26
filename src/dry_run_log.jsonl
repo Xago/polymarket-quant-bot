@@ -5805,3 +5805,8 @@
 {"ts": 1792967333.4512854, "tick": 0, "market": "lol-gen-ly-2026-10-25", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1792967333.4512854, "tick": 0, "market": "nba-lal-uta-2026-10-25", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1792967333.4512854, "tick": 0, "market": "nba-tor-min-2026-10-25", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1792975199.3285136, "tick": 0, "market": "nfl-kc-sea-2026-10-26", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1792975199.3285136, "tick": 0, "market": "nba-det-phi-2026-10-25", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1792975199.3285136, "tick": 0, "market": "nba-mem-sac-2026-10-25", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1792975199.3285136, "tick": 0, "market": "nba-orl-nyk-2026-10-25", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1792975199.3285136, "tick": 0, "market": "nba-lac-okc-2026-10-25", "action": "SKIP", "reason": ["racha_perdidas"]}
