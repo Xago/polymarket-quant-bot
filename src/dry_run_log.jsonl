@@ -5950,3 +5950,8 @@
 {"ts": 1793485481.9622056, "tick": 0, "market": "lol-hle1-blg-2026-10-31", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1793485481.9622056, "tick": 0, "market": "2026-senate-map-r-ia-ks", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1793485481.9622056, "tick": 0, "market": "will-the-democrats-win-the-michigan-senate-race-in-2026", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1793496298.4011464, "tick": 0, "market": "nba-okc-hou-2026-10-31", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1793496298.4011464, "tick": 0, "market": "2026-senate-map-r-none", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1793496298.4011464, "tick": 0, "market": "nba-okc-hou-2026-10-31-spread-home-2pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1793496298.4011464, "tick": 0, "market": "nba-cle-mil-2026-10-31-spread-away-9pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1793496298.4011464, "tick": 0, "market": "will-the-democrats-win-the-michigan-senate-race-in-2026", "action": "SKIP", "reason": ["racha_perdidas"]}
