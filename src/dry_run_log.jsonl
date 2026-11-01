@@ -5965,3 +5965,8 @@
 {"ts": 1793545166.5126698, "tick": 0, "market": "will-benjamin-netanyahu-be-the-next-prime-minister-of-israel", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1793545166.5126698, "tick": 0, "market": "epl-liv-ars-2026-11-01-total-2pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1793545166.5126698, "tick": 0, "market": "sea-laz-cag-2026-11-01-laz", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1793561530.3606904, "tick": 0, "market": "2026-senate-map-r-none", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1793561530.3606904, "tick": 0, "market": "nfl-cle-pit-2026-11-01", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1793561530.3606904, "tick": 0, "market": "nfl-lv-nyj-2026-11-01", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1793561530.3606904, "tick": 0, "market": "nfl-min-det-2026-11-01", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1793561530.3606904, "tick": 0, "market": "nfl-cle-pit-2026-11-01-spread-home-3pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
