@@ -6085,3 +6085,8 @@
 {"ts": 1794075284.827467, "tick": 0, "market": "cfb-byu-utah-2026-11-07", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1794075284.827467, "tick": 0, "market": "lol-ig1-gen-2026-11-07-game-handicap-home-2pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1794075284.827467, "tick": 0, "market": "bun-stu-wer-2026-11-07-stu", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1794088764.8932269, "tick": 0, "market": "lol-ig1-gen-2026-11-07", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1794088764.8932269, "tick": 0, "market": "cfb-ala-lsu-2026-11-07", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1794088764.8932269, "tick": 0, "market": "lol-ig1-gen-2026-11-07-game-handicap-home-2pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1794088764.8932269, "tick": 0, "market": "cfb-wkent-mtnst-2026-11-07", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1794088764.8932269, "tick": 0, "market": "lal-mad-bar-2026-11-08-bar", "action": "SKIP", "reason": ["racha_perdidas"]}
