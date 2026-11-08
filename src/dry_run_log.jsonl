@@ -6105,3 +6105,8 @@
 {"ts": 1794148116.4795315, "tick": 0, "market": "epl-cry-liv-2026-11-08-liv", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1794148116.4795315, "tick": 0, "market": "lal-mad-bar-2026-11-08-bar", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1794148116.4795315, "tick": 0, "market": "nfl-nyg-phi-2026-11-08", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1794164583.107611, "tick": 0, "market": "nfl-nyg-phi-2026-11-08", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1794164583.107611, "tick": 0, "market": "lol-blg-t1-2026-11-08", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1794164583.107611, "tick": 0, "market": "nfl-nyj-kc-2026-11-08", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1794164583.107611, "tick": 0, "market": "lal-mad-bar-2026-11-08-bar", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1794164583.107611, "tick": 0, "market": "nfl-nyg-phi-2026-11-08-total-38pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
