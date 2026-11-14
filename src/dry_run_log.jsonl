@@ -6205,3 +6205,8 @@
 {"ts": 1794610530.785701, "tick": 0, "market": "wta-sabalen-svitoli-2026-11-10", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1794610530.785701, "tick": 0, "market": "will-bitcoin-dip-to-67pt5k-in-november-2026", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1794610530.785701, "tick": 0, "market": "ufc-jos52-cir-2026-11-14", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1794625475.895221, "tick": 0, "market": "cbb-loulaf-ncw-2026-11-14", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1794625475.895221, "tick": 0, "market": "nba-atl-chi-2026-11-13", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1794625475.895221, "tick": 0, "market": "nba-okc-lac-2026-11-13", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1794625475.895221, "tick": 0, "market": "cfb-flst-pitt-2026-11-13", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1794625475.895221, "tick": 0, "market": "nba-cle-mia-2026-11-13", "action": "SKIP", "reason": ["racha_perdidas"]}
