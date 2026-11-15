@@ -6240,3 +6240,8 @@
 {"ts": 1794754778.8315344, "tick": 0, "market": "nfl-ne-det-2026-11-15-spread-home-2pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1794754778.8315344, "tick": 0, "market": "cbb-pepp-ore-2026-11-15", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1794754778.8315344, "tick": 0, "market": "will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1794773940.5428255, "tick": 0, "market": "nfl-car-no-2026-11-15", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1794773940.5428255, "tick": 0, "market": "nfl-min-gb-2026-11-15", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1794773940.5428255, "tick": 0, "market": "unl-esp-eng-2026-11-15-esp", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1794773940.5428255, "tick": 0, "market": "nfl-hou-cle-2026-11-15", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1794773940.5428255, "tick": 0, "market": "nfl-sf-dal-2026-11-15", "action": "SKIP", "reason": ["racha_perdidas"]}
