@@ -6225,3 +6225,8 @@
 {"ts": 1794689899.1552596, "tick": 0, "market": "will-genptg-win-worlds-2026", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1794689899.1552596, "tick": 0, "market": "unl-rom-pol-2026-11-14-pol", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1794689899.1552596, "tick": 0, "market": "nba-dal-cle-2026-11-14", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1794704300.9418886, "tick": 0, "market": "nba-bkn-mem-2026-11-14", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1794704300.9418886, "tick": 0, "market": "nba-dal-cle-2026-11-14", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1794704300.9418886, "tick": 0, "market": "nba-bkn-mem-2026-11-14-spread-home-2pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1794704300.9418886, "tick": 0, "market": "cfb-wash-mst-2026-11-14", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1794704300.9418886, "tick": 0, "market": "ufc-jos52-cir-2026-11-14", "action": "SKIP", "reason": ["racha_perdidas"]}
