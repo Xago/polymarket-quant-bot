@@ -6300,3 +6300,8 @@
 {"ts": 1795061179.0223768, "tick": 0, "market": "nba-uta-lal-2026-11-18", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1795061179.0223768, "tick": 0, "market": "nba-phx-sac-2026-11-18-spread-away-7pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1795061179.0223768, "tick": 0, "market": "will-anthropics-market-cap-be-between-1pt5t-and-1pt75t-at-market-close-on-ipo-day", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795092948.2724905, "tick": 0, "market": "will-anthropics-market-cap-be-less-than-1pt25t-at-market-close-on-ipo-day", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795092948.2724905, "tick": 0, "market": "cs2-gl1-ice-2026-11-19", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795092948.2724905, "tick": 0, "market": "will-anthropics-market-cap-be-between-1pt5t-and-1pt75t-at-market-close-on-ipo-day", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795092948.2724905, "tick": 0, "market": "will-candidate-a-be-the-next-ceo-of-nvidia", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795092948.2724905, "tick": 0, "market": "will-anthropics-market-cap-be-between-1pt25t-and-1pt5t-at-market-close-on-ipo-day", "action": "SKIP", "reason": ["racha_perdidas"]}
