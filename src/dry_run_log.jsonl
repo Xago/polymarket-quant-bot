@@ -6295,3 +6295,8 @@
 {"ts": 1795043077.5799646, "tick": 0, "market": "cs2-bbl1-envy-2026-11-18", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1795043077.5799646, "tick": 0, "market": "nba-det-nop-2026-11-18", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1795043077.5799646, "tick": 0, "market": "nba-was-tor-2026-11-18", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795061179.0223768, "tick": 0, "market": "will-anthropics-market-cap-be-less-than-1pt25t-at-market-close-on-ipo-day", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795061179.0223768, "tick": 0, "market": "nba-bos-den-2026-11-18", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795061179.0223768, "tick": 0, "market": "nba-uta-lal-2026-11-18", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795061179.0223768, "tick": 0, "market": "nba-phx-sac-2026-11-18-spread-away-7pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795061179.0223768, "tick": 0, "market": "will-anthropics-market-cap-be-between-1pt5t-and-1pt75t-at-market-close-on-ipo-day", "action": "SKIP", "reason": ["racha_perdidas"]}
