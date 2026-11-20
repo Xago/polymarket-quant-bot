@@ -6310,3 +6310,8 @@
 {"ts": 1795123436.332361, "tick": 0, "market": "will-candidate-a-be-the-next-ceo-of-nvidia", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1795123436.332361, "tick": 0, "market": "nba-lac-sas-2026-11-19", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1795123436.332361, "tick": 0, "market": "nfl-ind-hou-2026-11-20", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795141963.0972526, "tick": 0, "market": "nba-nyk-min-2026-11-19", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795141963.0972526, "tick": 0, "market": "nba-gsw-mem-2026-11-19-spread-home-5pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795141963.0972526, "tick": 0, "market": "nba-gsw-mem-2026-11-19", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795141963.0972526, "tick": 0, "market": "nfl-ind-hou-2026-11-20-spread-home-13pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795141963.0972526, "tick": 0, "market": "nba-lac-sas-2026-11-19", "action": "SKIP", "reason": ["racha_perdidas"]}
