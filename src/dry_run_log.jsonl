@@ -6360,3 +6360,8 @@
 {"ts": 1795364711.6398082, "tick": 0, "market": "dota2-pari-liquid-2026-11-22-game2", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1795364711.6398082, "tick": 0, "market": "epl-liv-mun-2026-11-22-liv", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1795364711.6398082, "tick": 0, "market": "nfl-bal-car-2026-11-22", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795384705.54944, "tick": 0, "market": "nfl-nyj-lac-2026-11-22", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795384705.54944, "tick": 0, "market": "nfl-jax-nyg-2026-11-22", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795384705.54944, "tick": 0, "market": "nba-det-atl-2026-11-22", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795384705.54944, "tick": 0, "market": "nba-okc-mia-2026-11-22", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795384705.54944, "tick": 0, "market": "nba-bos-gsw-2026-11-22", "action": "SKIP", "reason": ["racha_perdidas"]}
