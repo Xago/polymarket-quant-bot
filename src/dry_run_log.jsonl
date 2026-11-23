@@ -6365,3 +6365,8 @@
 {"ts": 1795384705.54944, "tick": 0, "market": "nba-det-atl-2026-11-22", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1795384705.54944, "tick": 0, "market": "nba-okc-mia-2026-11-22", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1795384705.54944, "tick": 0, "market": "nba-bos-gsw-2026-11-22", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795401196.120558, "tick": 0, "market": "nfl-min-sf-2026-11-23", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795401196.120558, "tick": 0, "market": "nba-ind-nyk-2026-11-22-spread-home-6pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795401196.120558, "tick": 0, "market": "nba-bos-gsw-2026-11-22", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795401196.120558, "tick": 0, "market": "nfl-min-sf-2026-11-23-spread-home-3pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795401196.120558, "tick": 0, "market": "nfl-min-sf-2026-11-23-spread-home-4pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
