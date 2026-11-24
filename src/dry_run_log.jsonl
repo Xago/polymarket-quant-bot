@@ -6385,3 +6385,8 @@
 {"ts": 1795501807.6301813, "tick": 0, "market": "jensen-huang-admits-to-another-affair-by-december-31", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1795501807.6301813, "tick": 0, "market": "will-david-lisnard-win-the-2027-french-presidential-election", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1795501807.6301813, "tick": 0, "market": "atp-kouzmin-takahas-2026-11-23", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795543989.3495688, "tick": 0, "market": "atp-ono-lennonr-2026-11-22", "action": "SKIP", "reason": "error API: HTTP Error 404: Not Found"}
+{"ts": 1795543989.3495688, "tick": 0, "market": "ucl-gal-ast-2026-11-24-ast", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795543989.3495688, "tick": 0, "market": "dota2-og-aur1-2026-11-24-game1", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795543989.3495688, "tick": 0, "market": "atp-cui-hassan-2026-11-22", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795543989.3495688, "tick": 0, "market": "dota2-xtreme-liquid-2026-11-24-game2", "action": "SKIP", "reason": ["racha_perdidas"]}
