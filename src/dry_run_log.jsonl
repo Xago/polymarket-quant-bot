@@ -6390,3 +6390,8 @@
 {"ts": 1795543989.3495688, "tick": 0, "market": "dota2-og-aur1-2026-11-24-game1", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1795543989.3495688, "tick": 0, "market": "atp-cui-hassan-2026-11-22", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1795543989.3495688, "tick": 0, "market": "dota2-xtreme-liquid-2026-11-24-game2", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795574149.1398828, "tick": 0, "market": "atp-ono-lennonr-2026-11-22", "action": "SKIP", "reason": "error API: HTTP Error 404: Not Found"}
+{"ts": 1795574149.1398828, "tick": 0, "market": "cfb-kentst-emich-2026-11-24", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795574149.1398828, "tick": 0, "market": "cfb-miaoh-wmich-2026-11-24", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795574149.1398828, "tick": 0, "market": "nba-dal-den-2026-11-24", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795574149.1398828, "tick": 0, "market": "nhl-las-edm-2026-11-24-total-6pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
