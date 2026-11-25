@@ -6400,3 +6400,8 @@
 {"ts": 1795606879.7678652, "tick": 0, "market": "cs2-gosh-cw-2026-11-25", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1795606879.7678652, "tick": 0, "market": "cs2-gosh-cw-2026-11-25-game2", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1795606879.7678652, "tick": 0, "market": "will-david-lisnard-win-the-2027-french-presidential-election", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795639325.7205975, "tick": 0, "market": "atp-ono-lennonr-2026-11-22", "action": "SKIP", "reason": "error API: HTTP Error 404: Not Found"}
+{"ts": 1795639325.7205975, "tick": 0, "market": "ucl-lil-bay-2026-11-25-bay", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795639325.7205975, "tick": 0, "market": "ucl-shd-fen-2026-11-25-fen", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795639325.7205975, "tick": 0, "market": "nfl-gb-la-2026-11-26", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795639325.7205975, "tick": 0, "market": "nba-mia-phi-2026-11-25", "action": "SKIP", "reason": ["racha_perdidas"]}
