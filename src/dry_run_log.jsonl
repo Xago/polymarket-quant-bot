@@ -6395,3 +6395,8 @@
 {"ts": 1795574149.1398828, "tick": 0, "market": "cfb-miaoh-wmich-2026-11-24", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1795574149.1398828, "tick": 0, "market": "nba-dal-den-2026-11-24", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1795574149.1398828, "tick": 0, "market": "nhl-las-edm-2026-11-24-total-6pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795606879.7678652, "tick": 0, "market": "atp-ono-lennonr-2026-11-22", "action": "SKIP", "reason": "error API: HTTP Error 404: Not Found"}
+{"ts": 1795606879.7678652, "tick": 0, "market": "cs2-nip-tl1-2026-11-25", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795606879.7678652, "tick": 0, "market": "cs2-gosh-cw-2026-11-25", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795606879.7678652, "tick": 0, "market": "cs2-gosh-cw-2026-11-25-game2", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795606879.7678652, "tick": 0, "market": "will-david-lisnard-win-the-2027-french-presidential-election", "action": "SKIP", "reason": ["racha_perdidas"]}
