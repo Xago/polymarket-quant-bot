@@ -6415,3 +6415,8 @@
 {"ts": 1795697479.2386384, "tick": 0, "market": "cs2-imp11-tl1-2026-11-26-game2", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1795697479.2386384, "tick": 0, "market": "cs2-wc1-cw-2026-11-26", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1795697479.2386384, "tick": 0, "market": "will-chiang-wan-an-win-the-next-taipei-mayor-election-20260813125857101", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795730370.008814, "tick": 0, "market": "atp-ono-lennonr-2026-11-22", "action": "SKIP", "reason": "error API: HTTP Error 404: Not Found"}
+{"ts": 1795730370.008814, "tick": 0, "market": "will-the-price-of-bitcoin-be-between-60000-62000-on-november-27-2026", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795730370.008814, "tick": 0, "market": "nfl-phi-dal-2026-11-26-spread-home-8pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795730370.008814, "tick": 0, "market": "will-chiang-wan-an-win-the-next-taipei-mayor-election-20260813125857101", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795730370.008814, "tick": 0, "market": "will-puma-shen-win-the-next-taipei-mayor-election-20260813125857102", "action": "SKIP", "reason": ["racha_perdidas"]}
