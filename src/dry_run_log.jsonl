@@ -6410,3 +6410,8 @@
 {"ts": 1795662792.4026065, "tick": 0, "market": "nhl-utah-min-2026-11-25", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1795662792.4026065, "tick": 0, "market": "nba-phx-hou-2026-11-25-total-223pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
 {"ts": 1795662792.4026065, "tick": 0, "market": "nfl-gb-la-2026-11-26-spread-home-2pt5", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795697479.2386384, "tick": 0, "market": "atp-ono-lennonr-2026-11-22", "action": "SKIP", "reason": "error API: HTTP Error 404: Not Found"}
+{"ts": 1795697479.2386384, "tick": 0, "market": "cs2-imp11-tl1-2026-11-26", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795697479.2386384, "tick": 0, "market": "cs2-imp11-tl1-2026-11-26-game2", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795697479.2386384, "tick": 0, "market": "cs2-wc1-cw-2026-11-26", "action": "SKIP", "reason": ["racha_perdidas"]}
+{"ts": 1795697479.2386384, "tick": 0, "market": "will-chiang-wan-an-win-the-next-taipei-mayor-election-20260813125857101", "action": "SKIP", "reason": ["racha_perdidas"]}
